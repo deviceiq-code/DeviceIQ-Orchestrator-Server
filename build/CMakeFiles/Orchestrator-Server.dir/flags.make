@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/fernando/Repos/DeviceIQ-Orchestrator-Server/include -isystem /home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/include
 
-CXX_FLAGS = -g -std=c++20
+CXX_FLAGS = -g -std=c++20 -Wall -Wextra -Wpedantic
 

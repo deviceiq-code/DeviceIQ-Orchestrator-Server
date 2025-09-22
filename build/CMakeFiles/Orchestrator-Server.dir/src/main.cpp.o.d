@@ -380,6 +380,21 @@ CMakeFiles/Orchestrator-Server.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/linux/falloc.h /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h /usr/include/ifaddrs.h \
+ /home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/include/mbedtls/base64.h \
+ /home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/include/mbedtls/build_info.h \
+ /home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/include/mbedtls/mbedtls_config.h \
+ /home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/include/mbedtls/config_psa.h \
+ /home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/include/psa/crypto_legacy.h \
+ /home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/include/psa/crypto_adjust_config_synonyms.h \
+ /home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/include/psa/crypto_adjust_config_dependencies.h \
+ /home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/include/mbedtls/config_adjust_psa_superset_legacy.h \
+ /home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/include/mbedtls/config_adjust_psa_from_legacy.h \
+ /home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/include/psa/crypto_adjust_config_key_pair_types.h \
+ /home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/include/psa/crypto_adjust_auto_enabled.h \
+ /home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/include/mbedtls/config_adjust_legacy_crypto.h \
+ /home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/include/mbedtls/config_adjust_x509.h \
+ /home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/include/mbedtls/config_adjust_ssl.h \
+ /home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/include/mbedtls/check_config.h \
  /usr/include/net/if.h /usr/include/poll.h \
  /usr/include/x86_64-linux-gnu/sys/poll.h \
  /usr/include/x86_64-linux-gnu/bits/poll.h /usr/include/c++/13/random \

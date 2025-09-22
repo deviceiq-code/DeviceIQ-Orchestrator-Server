@@ -1,0 +1,925 @@
+[I][2024-02-17T02:25:55.111978Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.191312Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.394590Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T12:31:48.678702Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T12:31:48.726654Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T12:31:48.806520Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T12:31:48.888154Z] Webhooks: Enabled on port 80
+[I][2025-09-13T12:31:48.012021Z] MQTT: Connected
+[I][2025-09-13T12:31:58.178202Z] Orchestrator: Replied Restart command to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.097884Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.141852Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.282596Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T12:32:08.364700Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T12:32:08.419051Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T12:32:08.496514Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T12:32:08.571882Z] Webhooks: Enabled on port 80
+[I][2025-09-13T12:32:08.676322Z] MQTT: Connected
+[I][2025-09-13T12:32:10.575752Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[E][2025-09-13T12:32:10.695261Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T12:32:10.786152Z] URL: https://server.dts-network.com:8081/update.json
+[I][2025-09-13T12:32:10.885074Z] GW: 192.168.2.254 | DNS1: 8.8.8.8 | DNS2: 8.8.4.4
+[I][2024-02-17T02:25:55.092020Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.124979Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.332609Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T12:33:39.414682Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T12:33:39.471043Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T12:33:39.559483Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T12:33:39.632855Z] Webhooks: Enabled on port 80
+[I][2025-09-13T12:33:39.725703Z] MQTT: Connected
+[I][2024-02-17T02:25:55.105053Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.206180Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.464587Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T12:35:58.959691Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T12:35:58.068424Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T12:35:58.198656Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T12:35:58.507170Z] Webhooks: Enabled on port 80
+[I][2025-09-13T12:35:58.575235Z] MQTT: Connected
+[I][2025-09-13T12:37:19.674658Z] Orchestrator: Replied Restart command to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.103083Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.207299Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.411600Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T12:37:32.571709Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T12:37:32.684707Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T12:37:32.822109Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T12:37:32.949561Z] Webhooks: Enabled on port 80
+[I][2025-09-13T12:37:32.110395Z] MQTT: Connected
+[I][2024-02-17T02:25:55.110833Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.406457Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.608680Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T12:41:54.916736Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T12:41:54.973472Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T12:41:54.059999Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T12:41:54.136912Z] Webhooks: Enabled on port 80
+[I][2025-09-13T12:41:54.220991Z] MQTT: Connected
+[I][2025-09-13T12:42:12.989339Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[E][2025-09-13T12:42:12.268194Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T12:42:12.342343Z] URL: https://server.dts-network.com:8081/update.json
+[I][2025-09-13T12:42:12.427927Z] GW: 192.168.2.254 | DNS1: 8.8.8.8 | DNS2: 8.8.4.4
+[I][2024-02-17T02:25:55.118622Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.228943Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.492610Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T12:43:32.812699Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T12:43:32.834741Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T12:43:32.891685Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T12:43:32.935916Z] Webhooks: Enabled on port 80
+[I][2025-09-13T12:43:32.009178Z] MQTT: Connected
+[I][2025-09-13T12:43:39.058967Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[E][2025-09-13T12:43:39.303337Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T12:43:39.379682Z] URL: https://server.dts-network.com:8081/update.json
+[I][2025-09-13T12:43:39.459653Z] GW: 192.168.2.254 | DNS1: 8.8.8.8 | DNS2: 8.8.4.4
+[E][2025-09-13T13:22:21.324181Z] Orchestrator: Failed to connect to server over TCP
+[I][2024-02-17T02:25:55.117275Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.226864Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.432613Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T13:22:27.813686Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T13:22:27.127022Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-13T13:22:27.201869Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-13T13:22:27.271390Z] Webhooks: Enabled on port 80
+[I][2025-09-13T13:22:27.366191Z] MQTT: Connected
+[E][2025-09-13T13:22:43.617373Z] Orchestrator: Failed to connect to server over TCP
+[E][2025-09-13T13:22:43.852538Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T13:22:43.960303Z] URL: https://server.dts-network.com:8081/update.json
+[I][2025-09-13T13:22:43.063578Z] GW: 192.168.2.254 | DNS1: 8.8.8.8 | DNS2: 8.8.4.4
+[I][2024-02-17T02:25:55.112763Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.210163Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.311351Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.579659Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[E][2024-02-17T02:25:56.947318Z] Date and Time: Failed to update from NTP server pool.ntp.org
+[W][2024-02-17T02:25:56.064387Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2024-02-17T02:25:56.394517Z] Orchestrator: Failed to connect to server over TCP
+[I][2024-02-17T02:25:56.430695Z] Webhooks: Enabled on port 80
+[I][2024-02-17T02:25:56.500927Z] MQTT: Connected
+[E][2024-02-17T02:26:01.551102Z] Orchestrator: Failed to connect to server over TCP
+[E][2024-02-17T02:26:01.214200Z] Update Client: Check failed (network/manifest)
+[I][2024-02-17T02:26:01.289692Z] URL: https://server.dts-network.com:8081/update.json
+[I][2024-02-17T02:26:01.372037Z] GW: 192.168.2.254 | DNS1: 8.8.8.8 | DNS2: 8.8.4.4
+[E][2024-02-17T02:26:09.106038Z] Orchestrator: Failed to connect to server over TCP
+[E][2024-02-17T02:26:09.798835Z] Update Client: Check failed (network/manifest)
+[I][2024-02-17T02:26:09.897782Z] URL: https://server.dts-network.com:8081/update.json
+[I][2024-02-17T02:26:09.005367Z] GW: 192.168.2.254 | DNS1: 8.8.8.8 | DNS2: 8.8.4.4
+[E][2024-02-17T02:26:12.693859Z] Orchestrator: Failed to connect to server over TCP
+[I][2024-02-17T02:25:55.128731Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.299758Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.638101Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.781671Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[E][2024-02-17T02:25:56.871289Z] Date and Time: Failed to update from NTP server pool.ntp.org
+[W][2024-02-17T02:25:56.906923Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2024-02-17T02:25:56.965481Z] Orchestrator: Failed to connect to server over TCP
+[I][2024-02-17T02:25:56.015333Z] Webhooks: Enabled on port 80
+[I][2024-02-17T02:25:56.094790Z] MQTT: Connected
+[I][2024-02-17T02:26:23.757098Z] Orchestrator: Replied Restart command to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.106013Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.187846Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.275688Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.466676Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T13:28:55.597758Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T13:28:55.699058Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T13:28:55.009428Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T13:28:55.039313Z] Webhooks: Enabled on port 80
+[I][2025-09-13T13:28:55.109845Z] MQTT: Connected
+[I][2025-09-13T13:29:00.949653Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[E][2025-09-13T13:29:00.628441Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T13:29:00.694478Z] URL: https://server.dts-network.com:8081/update.json
+[I][2025-09-13T13:29:00.764931Z] GW: 192.168.2.254 | DNS1: 8.8.8.8 | DNS2: 8.8.4.4
+[I][2024-02-17T02:25:55.113964Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.203597Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.291793Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.552639Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T13:32:28.861750Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T13:32:28.971074Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T13:32:28.103540Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T13:32:28.411620Z] Webhooks: Enabled on port 80
+[I][2025-09-13T13:32:28.466358Z] MQTT: Connected
+[I][2025-09-13T13:32:46.665695Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[E][2025-09-13T13:32:46.891239Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T13:32:46.957257Z] URL: https://server.dts-network.com:8081/update.json
+[I][2025-09-13T13:33:45.333528Z] Orchestrator: Requested device configuration file to 192.168.2.10:30030
+[I][2025-09-13T13:33:51.901762Z] Orchestrator: Received new config file (1989 bytes)
+[I][2025-09-13T13:33:52.195456Z] Orchestrator: New config applied and saved
+[I][2024-02-17T02:25:55.112614Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.425629Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.500077Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.712380Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T13:33:58.790504Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T13:33:58.852293Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T13:33:58.947392Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T13:33:58.026920Z] Webhooks: Enabled on port 80
+[I][2025-09-13T13:33:58.134970Z] MQTT: Connected
+[I][2025-09-13T13:34:05.361020Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[E][2025-09-13T13:34:05.522341Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T13:34:05.619618Z] URL: http://server.dts-network.com:8082/update.json
+[I][2025-09-13T13:34:58.844450Z] Orchestrator: Requested device configuration file to 192.168.2.10:30030
+[I][2025-09-13T13:35:04.538054Z] Orchestrator: Received new config file (1974 bytes)
+[I][2025-09-13T13:35:04.694228Z] Orchestrator: New config applied and saved
+[I][2024-02-17T02:25:55.104021Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.215725Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.352411Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.608084Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T13:35:09.942199Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T13:35:09.051551Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T13:35:09.172380Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T13:35:09.303322Z] Webhooks: Enabled on port 80
+[I][2025-09-13T13:35:09.457092Z] MQTT: Connected
+[I][2025-09-13T13:35:14.834281Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[E][2025-09-13T13:35:14.946585Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T13:35:14.023630Z] URL: http://192.168.2.10/update.json
+[I][2025-09-13T13:35:24.538654Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[E][2025-09-13T13:35:24.669495Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T13:35:24.731058Z] URL: http://192.168.2.10/update.json
+[I][2024-02-17T02:25:55.111384Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.214079Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.321234Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.597080Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[E][2024-02-17T02:25:56.977780Z] Date and Time: Failed to update from NTP server pool.ntp.org
+[W][2024-02-17T02:25:56.102920Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2024-02-17T02:25:56.264329Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2024-02-17T02:25:56.415727Z] Webhooks: Enabled on port 80
+[I][2024-02-17T02:25:56.579884Z] MQTT: Connected
+[I][2024-02-17T02:26:02.642538Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[E][2024-02-17T02:26:02.762750Z] Update Client: Check failed (network/manifest)
+[I][2024-02-17T02:26:02.818290Z] URL: http://192.168.2.10/update.json
+[I][2024-02-17T02:25:55.106143Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.209786Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.313770Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.588111Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T13:42:50.919223Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T13:42:50.042520Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T13:42:50.188498Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T13:42:50.340145Z] Webhooks: Enabled on port 80
+[I][2025-09-13T13:42:50.505008Z] MQTT: Connected
+[I][2025-09-13T13:43:18.402890Z] Orchestrator: Replied Restart command to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.096442Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.150823Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.206659Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.371129Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T13:43:21.477240Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T13:43:21.554967Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T13:43:21.663361Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T13:43:21.767872Z] Webhooks: Enabled on port 80
+[I][2025-09-13T13:43:21.886973Z] MQTT: Connected
+[I][2025-09-13T13:43:25.513920Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[E][2025-09-13T13:43:25.769018Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T13:43:25.885808Z] URL: http://192.168.2.10/update.json
+[I][2024-02-17T02:25:55.090415Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.168948Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.251514Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.507084Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T13:45:19.827180Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T13:45:19.922305Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-13T13:45:19.070379Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-13T13:45:19.160714Z] Webhooks: Enabled on port 80
+[I][2025-09-13T13:45:19.276961Z] MQTT: Connected
+[E][2025-09-13T13:45:36.592902Z] Orchestrator: Failed to connect to server over TCP
+[E][2025-09-13T13:45:36.751604Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T13:45:36.862965Z] URL: http://192.168.2.10/update.json
+[E][2025-09-13T13:45:42.137068Z] Orchestrator: Failed to connect to server over TCP
+[E][2025-09-13T13:45:42.308957Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T13:45:42.634570Z] URL: http://192.168.2.10/update.json
+[I][2024-02-17T02:25:55.096606Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.159425Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.200586Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.414040Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T13:47:54.743233Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T13:47:54.808757Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-13T13:47:54.885615Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-13T13:47:54.964860Z] Webhooks: Enabled on port 80
+[I][2025-09-13T13:47:54.063246Z] MQTT: Connected
+[E][2025-09-13T13:48:01.856543Z] Orchestrator: Failed to connect to server over TCP
+[E][2025-09-13T13:48:01.019584Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T13:48:01.144604Z] URL: http://192.168.2.10/update.json
+[I][2024-02-17T02:25:55.113297Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.391215Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.422915Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.631998Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T14:34:02.909182Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T14:34:02.965323Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-13T14:34:02.077588Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-13T14:34:02.178473Z] Webhooks: Enabled on port 80
+[I][2025-09-13T14:34:02.296686Z] MQTT: Connected
+[E][2025-09-13T14:34:10.925965Z] Orchestrator: Failed to connect to server over TCP
+[E][2025-09-13T14:34:10.091139Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T14:34:10.222844Z] URL: http://192.168.2.10/update.json
+[I][2024-02-17T02:25:55.115727Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.233412Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.347627Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.809095Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T14:38:30.084277Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T14:38:30.133762Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-13T14:38:30.196914Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-13T14:38:30.263550Z] Webhooks: Enabled on port 80
+[I][2025-09-13T14:38:30.354891Z] MQTT: Connected
+[E][2025-09-13T14:38:49.859955Z] Orchestrator: Failed to connect to server over TCP
+[I][2024-02-17T02:25:55.106499Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.235040Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.356307Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.585120Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T14:38:53.741298Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T14:38:53.890802Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-13T14:38:53.048564Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-13T14:38:53.393077Z] Webhooks: Enabled on port 80
+[I][2025-09-13T14:38:53.488269Z] MQTT: Connected
+[E][2025-09-13T14:38:59.119617Z] Orchestrator: Failed to connect to server over TCP
+[E][2025-09-13T14:38:59.269310Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T14:38:59.382714Z] URL: http://192.168.2.10/update.json
+[E][2025-09-13T14:39:39.576412Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-13T14:39:48.121660Z] Orchestrator: Requested device configuration file to 192.168.2.10:30030
+[I][2025-09-13T14:39:54.705132Z] Orchestrator: Received new config file (1975 bytes)
+[I][2025-09-13T14:39:54.032858Z] Orchestrator: New config applied and saved
+[I][2024-02-17T02:25:55.086359Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.124672Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.166016Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.378076Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T14:39:59.452255Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T14:39:59.513097Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T14:39:59.598443Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T14:39:59.682275Z] Webhooks: Enabled on port 80
+[I][2025-09-13T14:39:59.784678Z] MQTT: Connected
+[I][2025-09-13T14:40:12.217666Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[E][2025-09-13T14:40:12.640022Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T14:40:12.740197Z] URL: https://192.168.2.10/update.json
+[I][2024-02-17T02:25:55.103290Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.434218Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.493671Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.722033Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T14:47:06.191137Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T14:47:06.273159Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T14:47:06.375721Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T14:47:06.480950Z] Webhooks: Enabled on port 80
+[I][2025-09-13T14:47:06.614546Z] MQTT: Connected
+[I][2025-09-13T14:47:10.905757Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[E][2025-09-13T14:47:10.584875Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T14:47:10.713000Z] URL: https://192.168.2.10/update.json
+[I][2025-09-13T14:51:06.950019Z] Orchestrator: Requested device configuration file to 192.168.2.10:30030
+[I][2025-09-13T14:51:12.694421Z] Orchestrator: Received new config file (1990 bytes)
+[I][2025-09-13T14:51:13.902610Z] Orchestrator: New config applied and saved
+[I][2024-02-17T02:25:55.098837Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.203170Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.307618Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.580948Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T14:51:21.925049Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T14:51:21.048837Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T14:51:21.191692Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T14:51:21.338258Z] Webhooks: Enabled on port 80
+[I][2025-09-13T14:51:21.506761Z] MQTT: Connected
+[I][2025-09-13T14:51:36.462088Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[E][2025-09-13T14:51:36.503656Z] Update Client: Check failed (network/manifest)
+[I][2025-09-13T14:51:36.556858Z] URL: https://server.dts-network.com/update-home.json
+[I][2025-09-13T14:52:14.759918Z] Orchestrator: Requested device configuration file to 192.168.2.10:30030
+[I][2025-09-13T14:52:20.297092Z] Orchestrator: Received new config file (1995 bytes)
+[I][2025-09-13T14:52:20.525546Z] Orchestrator: New config applied and saved
+[I][2024-02-17T02:25:55.106877Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.211314Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.316155Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.591170Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T14:52:27.738275Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T14:52:27.861223Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T14:52:27.172707Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T14:52:27.204616Z] Webhooks: Enabled on port 80
+[I][2025-09-13T14:52:27.264063Z] MQTT: Connected
+[I][2025-09-13T14:52:29.839234Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[I][2025-09-13T14:52:30.640139Z] Update Client: No update available
+[I][2024-02-17T02:25:55.106099Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.204452Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.276872Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.520159Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T14:55:19.863262Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T14:55:19.954677Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T14:55:19.072539Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T14:55:19.189729Z] Webhooks: Enabled on port 80
+[I][2025-09-13T14:55:19.326091Z] MQTT: Connected
+[I][2024-02-17T02:25:55.094479Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.170736Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.250083Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.499223Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T14:59:03.804374Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T14:59:03.905471Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T14:59:03.024942Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T14:59:03.141356Z] Webhooks: Enabled on port 80
+[I][2025-09-13T14:59:03.247094Z] MQTT: Connected
+[I][2025-09-13T14:59:15.766050Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[I][2025-09-13T14:59:15.029208Z] Update Client: No update available
+[W][2025-09-13T15:17:51.864081Z] Orchestrator: Unknown request []
+[W][2025-09-13T15:18:15.013452Z] Orchestrator: Unknown request []
+[W][2025-09-13T15:18:20.737614Z] Orchestrator: Unknown request []
+[W][2025-09-13T15:18:30.867850Z] Orchestrator: Unknown request []
+[W][2025-09-13T15:20:04.812813Z] Orchestrator: Unknown request []
+[W][2025-09-13T15:20:59.955423Z] Orchestrator: Unknown request []
+[W][2025-09-13T15:40:01.211818Z] Orchestrator: Unknown request []
+[W][2025-09-13T15:40:09.607489Z] Orchestrator: Unknown request []
+[W][2025-09-13T15:40:13.699608Z] Orchestrator: Unknown request []
+[W][2025-09-13T15:40:39.587152Z] Orchestrator: Unknown request []
+[I][2025-09-13T15:46:31.212030Z] Orchestrator: Replied Restart command to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.125740Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.264419Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.405841Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.651219Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T15:46:35.190371Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T15:46:35.319368Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T15:46:35.660642Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T15:46:35.715119Z] Webhooks: Enabled on port 80
+[I][2025-09-13T15:46:35.787873Z] MQTT: Connected
+[I][2025-09-13T15:46:46.411001Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[I][2025-09-13T15:46:46.748188Z] Update Client: No update available
+[I][2025-09-13T15:46:57.773546Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[I][2025-09-13T15:46:58.129204Z] Update Client: No update available
+[I][2025-09-13T19:11:27.090450Z] Orchestrator: Sent device configuration file to 192.168.2.10:30030
+[I][2025-09-13T19:15:57.285089Z] Orchestrator: Requested device configuration file to 192.168.2.10:30030
+[I][2025-09-13T19:16:03.867895Z] Orchestrator: Received new config file (1995 bytes)
+[I][2025-09-13T19:16:04.386038Z] Orchestrator: New config applied and saved
+[I][2024-02-17T02:25:55.098367Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.166354Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.242755Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.488899Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T19:16:10.790047Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T19:16:10.879546Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T19:16:10.997512Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T19:16:10.114459Z] Webhooks: Enabled on port 80
+[I][2025-09-13T19:16:10.252887Z] MQTT: Connected
+[I][2025-09-13T19:17:01.990076Z] Orchestrator: Replied Restart command to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.111859Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.251321Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.554235Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.687884Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T19:17:04.762029Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T19:17:04.809775Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T19:17:04.881123Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T19:17:04.948803Z] Webhooks: Enabled on port 80
+[I][2025-09-13T19:17:04.052860Z] MQTT: Connected
+[I][2025-09-13T19:18:06.108993Z] Orchestrator: Requested device configuration file to 192.168.2.10:30030
+[I][2025-09-13T19:18:13.692979Z] Orchestrator: Received new config file (1995 bytes)
+[I][2025-09-13T19:18:13.971624Z] Orchestrator: New config applied and saved
+[I][2024-02-17T02:25:55.097715Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.173350Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.253308Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.479748Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T19:18:17.561372Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T19:18:17.632601Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T19:18:17.719961Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T19:18:17.809821Z] Webhooks: Enabled on port 80
+[I][2025-09-13T19:18:17.920888Z] MQTT: Connected
+[I][2025-09-13T19:19:17.222210Z] Orchestrator: Replied Restart command to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.112197Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.257928Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.401085Z] Components: 7 component(s) installed
+[I][2024-02-17T02:25:56.826746Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T19:19:21.896881Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T19:19:21.947666Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T19:19:21.016713Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T19:19:21.087286Z] Webhooks: Enabled on port 80
+[I][2025-09-13T19:19:21.175319Z] MQTT: Connected
+[I][2025-09-13T19:19:33.067872Z] Orchestrator: Sent device configuration file to 192.168.2.10:30030
+[I][2025-09-13T19:20:06.152081Z] Orchestrator: Sent device configuration file to 192.168.2.10:30030
+[I][2025-09-13T19:21:47.486292Z] Orchestrator: Sent device configuration file to 192.168.2.10:30030
+[I][2025-09-13T19:23:04.592427Z] Orchestrator: Requested device configuration file to 192.168.2.10:30030
+[I][2025-09-13T19:23:13.700279Z] Orchestrator: Received new config file (1161 bytes)
+[I][2025-09-13T19:23:13.166129Z] Orchestrator: New config applied and saved
+[I][2024-02-17T02:25:55.092963Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.200255Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.297904Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.577912Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T19:23:17.731091Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T19:23:17.898565Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T19:23:17.013485Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T19:23:17.133446Z] Webhooks: Enabled on port 80
+[I][2025-09-13T19:23:17.287223Z] MQTT: Connected
+[W][2025-09-13T19:56:20.038166Z] Orchestrator: Unknown request []
+[W][2025-09-13T19:56:27.808073Z] Orchestrator: Unknown request []
+[W][2025-09-13T19:57:43.355437Z] Orchestrator: Unknown request []
+[W][2025-09-13T19:58:08.001096Z] Orchestrator: Unknown request []
+[W][2025-09-13T19:59:16.953010Z] Orchestrator: Unknown request []
+[W][2025-09-13T19:59:19.533342Z] Orchestrator: Unknown request []
+[W][2025-09-13T19:59:27.327908Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:01:15.985111Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:01:24.685177Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:02:00.216583Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:02:08.892800Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:02:21.887378Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:30:12.208424Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:38:03.794951Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:39:35.613052Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:39:43.861538Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:41:28.756043Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:42:46.160028Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:48:49.656300Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:51:18.535646Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:52:37.246891Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:52:43.961885Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:56:14.781921Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:58:31.335699Z] Orchestrator: Unknown request []
+[W][2025-09-13T20:58:44.906842Z] Orchestrator: Unknown request []
+[I][2025-09-13T20:59:13.737420Z] Orchestrator: Sent device configuration file to 192.168.2.10:30030
+[I][2025-09-13T20:59:37.077816Z] Orchestrator: Requested device configuration file to 192.168.2.10:30030
+[I][2025-09-13T20:59:43.648614Z] Orchestrator: Received new config file (1161 bytes)
+[I][2025-09-13T20:59:44.937359Z] Orchestrator: New config applied and saved
+[I][2024-02-17T02:25:55.104132Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.255344Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.559400Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.795682Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T20:59:48.905866Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T20:59:48.997973Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T20:59:48.107037Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T20:59:48.217192Z] Webhooks: Enabled on port 80
+[I][2025-09-13T20:59:48.341364Z] MQTT: Connected
+[W][2025-09-13T20:59:48.078874Z] Orchestrator: Unknown request []
+[W][2025-09-13T21:00:13.438191Z] Orchestrator: Unknown request []
+[W][2025-09-13T21:01:24.477411Z] Orchestrator: Unknown request []
+[W][2025-09-13T21:01:27.631118Z] Orchestrator: Unknown request []
+[I][2025-09-13T21:01:44.617491Z] Orchestrator: Requested device configuration file to 192.168.2.10:30030
+[I][2025-09-13T21:01:51.226166Z] Orchestrator: Received new config file (1161 bytes)
+[I][2025-09-13T21:01:51.702494Z] Orchestrator: New config applied and saved
+[I][2024-02-17T02:25:55.087168Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.151101Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.216350Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.455133Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T21:01:56.581311Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T21:01:56.668617Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T21:01:56.779835Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T21:01:56.884452Z] Webhooks: Enabled on port 80
+[I][2025-09-13T21:01:56.001228Z] MQTT: Connected
+[I][2025-09-13T21:02:04.190315Z] Orchestrator: Requested device configuration file to 192.168.2.10:30030
+[I][2025-09-13T21:02:11.757537Z] Orchestrator: Received new config file (1161 bytes)
+[I][2025-09-13T21:02:11.210909Z] Orchestrator: New config applied and saved
+[I][2024-02-17T02:25:55.090992Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.180242Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.255156Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.512613Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T21:02:15.653791Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T21:02:15.764224Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T21:02:15.895378Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T21:02:15.029122Z] Webhooks: Enabled on port 80
+[I][2025-09-13T21:02:15.183818Z] MQTT: Connected
+[W][2025-09-13T21:02:18.983842Z] Orchestrator: Unknown request []
+[I][2025-09-13T21:02:28.395037Z] Orchestrator: Sent device configuration file to 192.168.2.10:30030
+[I][2025-09-13T21:02:40.921845Z] Orchestrator: Requested device configuration file to 192.168.2.10:30030
+[I][2025-09-13T21:02:48.856698Z] Orchestrator: Received new config file (1161 bytes)
+[I][2025-09-13T21:02:48.070336Z] Orchestrator: New config applied and saved
+[I][2024-02-17T02:25:55.092475Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.201501Z] Allow Insecure: Yes
+[I][2024-02-17T02:25:55.294068Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.570096Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T21:02:52.711274Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T21:02:52.831299Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T21:02:52.973775Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T21:02:52.110553Z] Webhooks: Enabled on port 80
+[I][2025-09-13T21:02:52.274259Z] MQTT: Connected
+[W][2025-09-13T21:03:17.592945Z] Orchestrator: Unknown request []
+[I][2025-09-13T21:03:55.190500Z] Orchestrator: Replied Update command to 192.168.2.10:30030
+[I][2025-09-13T21:03:55.386240Z] Update Client: No update available
+[I][2025-09-13T21:04:03.636676Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T21:04:19.122560Z] Orchestrator: Sent device configuration file to 192.168.2.10:30030
+[W][2025-09-13T21:05:42.975554Z] Orchestrator: Unknown request []
+[I][2024-02-17T02:25:55.101248Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.212647Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.489164Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-13T21:06:11.635215Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-13T21:06:11.767726Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-13T21:06:11.923607Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T21:06:11.069176Z] Webhooks: Enabled on port 80
+[I][2025-09-13T21:06:11.234598Z] MQTT: Connected
+[W][2025-09-13T21:06:19.570948Z] Orchestrator: Unknown request []
+[I][2025-09-13T21:06:31.621441Z] Orchestrator: Sent device configuration file to 192.168.2.10:30030
+[I][2025-09-13T21:06:41.944892Z] Orchestrator: Sent device configuration file to 192.168.2.10:30030
+[I][2025-09-13T21:06:55.336474Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-13T21:07:16.794455Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[W][2025-09-16T09:02:16.823182Z] Orchestrator: Unknown request []
+[W][2025-09-16T09:59:52.514052Z] Orchestrator: Unknown request []
+[I][2025-09-16T10:17:47.879397Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[W][2025-09-16T11:07:50.778635Z] Orchestrator: Unknown request []
+[W][2025-09-16T12:10:58.161857Z] Orchestrator: Unknown request []
+[E][2025-09-16T17:55:06.499328Z] Orchestrator: Failed to connect to server over TCP
+[I][2024-02-17T02:25:55.110028Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.229325Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.449160Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-16T17:55:23.607210Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-16T17:55:23.734414Z] Orchestrator: Server not found in this network
+[W][2025-09-16T17:55:23.869198Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-16T17:55:23.029141Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-16T17:55:23.174888Z] Webhooks: Enabled on port 80
+[I][2025-09-16T17:55:23.543738Z] MQTT: Connected
+[E][2025-09-16T17:56:27.709248Z] Orchestrator: Failed to connect to server over TCP
+[I][2024-02-17T02:25:55.089112Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.171478Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.352163Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-16T17:56:31.479206Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-16T17:56:31.581416Z] Orchestrator: Server not found in this network
+[W][2025-09-16T17:56:31.688794Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-16T17:56:31.813160Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-16T17:56:31.933508Z] Webhooks: Enabled on port 80
+[I][2025-09-16T17:56:31.097088Z] MQTT: Connected
+[E][2025-09-16T17:58:22.752124Z] Orchestrator: Failed to connect to server over TCP
+[I][2024-02-17T02:25:55.123854Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.272840Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.513160Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[E][2024-02-17T02:25:56.699759Z] Date and Time: Failed to update from NTP server pool.ntp.org
+[W][2024-02-17T02:25:56.048416Z] Orchestrator: Server not found in this network
+[W][2024-02-17T02:25:56.114590Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2024-02-17T02:25:56.204104Z] Orchestrator: Failed to connect to server over TCP
+[I][2024-02-17T02:25:56.291886Z] Webhooks: Enabled on port 80
+[I][2024-02-17T02:25:56.409249Z] MQTT: Connected
+[I][2024-02-19T19:50:05.494391Z] Orchestrator: Sent device configuration file to 192.168.2.10:30030
+[I][2024-02-19T19:51:11.116077Z] Orchestrator: Sent device configuration file to 192.168.2.10:30030
+[I][2024-02-19T19:52:15.530524Z] Orchestrator: Sent device configuration file to 192.168.2.10:30030
+[I][2024-02-19T19:53:24.967457Z] Orchestrator: Sent device configuration file to 192.168.2.10:30030
+[I][2024-02-19T19:53:36.364660Z] Orchestrator: Sent device configuration file to 192.168.2.10:30030
+[I][2024-02-19T19:54:10.400132Z] Orchestrator: Sent device configuration file to 192.168.2.10:30030
+[I][2024-02-19T19:54:24.053778Z] Orchestrator: Requested device configuration file to 192.168.2.10:30030
+[I][2024-02-19T19:54:32.221290Z] Orchestrator: Received new config file (1161 bytes)
+[I][2024-02-19T19:54:33.732875Z] Orchestrator: New config applied and saved
+[I][2024-02-17T02:25:55.093045Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.191287Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.451876Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T11:27:22.612919Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T11:27:22.734707Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-19T11:27:22.871389Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T11:27:22.003332Z] Webhooks: Enabled on port 80
+[I][2025-09-19T11:27:22.170871Z] MQTT: Connected
+[I][2025-09-19T11:57:19.181815Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T12:01:30.013259Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T12:02:48.234079Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T14:05:59.855677Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T14:26:43.179423Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T18:49:51.412911Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T18:50:22.283497Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T19:15:06.747686Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T19:16:45.023074Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T19:17:47.954358Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T19:18:27.956836Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.103616Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.214943Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.487093Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T20:51:16.795973Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T20:51:16.925588Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-19T20:51:16.072813Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T20:51:16.209897Z] Webhooks: Enabled on port 80
+[I][2025-09-19T20:51:16.462205Z] MQTT: Connected
+[I][2025-09-19T20:51:29.973037Z] Orchestrator: Replied Restart command to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.132012Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.473252Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.644892Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T20:51:32.776338Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T20:51:32.677250Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-19T20:51:32.786900Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T20:51:32.888808Z] Webhooks: Enabled on port 80
+[I][2025-09-19T20:51:32.034440Z] MQTT: Connected
+[I][2025-09-19T20:51:48.971207Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.110500Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.237724Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.534908Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T20:55:07.052011Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T20:55:07.200573Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-19T20:55:07.371167Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T20:55:07.528139Z] Webhooks: Enabled on port 80
+[I][2025-09-19T20:55:07.714976Z] MQTT: Connected
+[I][2025-09-19T20:59:49.055183Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T21:02:47.774729Z] Orchestrator: Replied Restart command to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.089844Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.180122Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.374877Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:02:50.643970Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:02:50.763557Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-19T21:02:50.940233Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T21:02:50.147817Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:02:50.309771Z] MQTT: Connected
+[I][2024-02-17T02:25:55.123176Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.285384Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.608980Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:04:20.846122Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:04:20.018339Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-19T21:04:20.412407Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T21:04:20.480881Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:04:20.566086Z] MQTT: Connected
+[I][2024-02-17T02:25:55.095013Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.185244Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.434901Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:06:02.709032Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:06:02.828041Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-19T21:06:02.964021Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T21:06:02.087225Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:06:02.247897Z] MQTT: Connected
+[I][2024-02-17T02:25:55.122318Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.264024Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.561840Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:09:41.874980Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:09:41.036323Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-19T21:09:41.391639Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T21:09:41.463127Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:09:41.554062Z] MQTT: Connected
+[E][2025-09-19T21:09:43.289140Z] Orchestrator: File ./syslog.log not found
+[I][2024-02-17T02:25:55.096976Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.193597Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.460977Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:11:54.811129Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:11:54.925938Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-19T21:11:54.059784Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T21:11:54.185812Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:11:54.344913Z] MQTT: Connected
+[E][2025-09-19T21:11:59.060419Z] Orchestrator: File ./syslog.log not found
+[I][2024-02-17T02:25:55.128988Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.297911Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.618812Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:13:22.999957Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:13:22.084386Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-19T21:13:22.201537Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T21:13:22.292058Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:13:22.407521Z] MQTT: Connected
+[I][2024-02-17T02:25:55.101315Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.217049Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.499415Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:13:44.654540Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:13:44.793412Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-19T21:13:44.949433Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T21:13:44.089017Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:13:44.269290Z] MQTT: Connected
+[I][2024-02-17T02:25:55.129074Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.298942Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.626897Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:14:07.163034Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:14:07.247189Z] Orchestrator: Server not found in this network
+[W][2025-09-19T21:14:07.336116Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-19T21:14:07.444376Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-19T21:14:07.542727Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:14:07.707997Z] MQTT: Connected
+[I][2024-02-17T02:25:55.100214Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.202600Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.472664Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:14:20.622778Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:14:20.738958Z] Orchestrator: Server not found in this network
+[W][2025-09-19T21:14:20.860953Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-19T21:14:20.999199Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-19T21:14:20.135137Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:14:20.301271Z] MQTT: Connected
+[I][2024-02-17T02:25:55.119697Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.456254Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.683839Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:19:16.925976Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:19:16.007132Z] Orchestrator: Server not found in this network
+[W][2025-09-19T21:19:16.092057Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-19T21:19:16.187342Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-19T21:19:16.288716Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:19:16.411340Z] MQTT: Connected
+[I][2024-02-17T02:25:55.110185Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.235969Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.522715Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:22:33.847852Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:22:33.989996Z] Orchestrator: Server not found in this network
+[W][2025-09-19T21:22:33.130071Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-19T21:22:33.286612Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-19T21:22:33.435616Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:22:33.798683Z] MQTT: Connected
+[I][2024-02-17T02:25:55.075923Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.154607Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.406726Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:23:23.534851Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:23:23.634019Z] Orchestrator: Server not found in this network
+[W][2025-09-19T21:23:23.738205Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-19T21:23:23.857302Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-19T21:23:23.975095Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:23:23.123337Z] MQTT: Connected
+[I][2024-02-17T02:25:55.105425Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.248488Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.556825Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:25:34.930146Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:25:34.087103Z] Orchestrator: Server not found in this network
+[W][2025-09-19T21:25:34.248674Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-19T21:25:34.605463Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-19T21:25:34.678474Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:25:34.808206Z] MQTT: Connected
+[E][2025-09-19T21:25:39.274339Z] Orchestrator: Failed to connect to server over TCP
+[I][2024-02-17T02:25:55.084501Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.191150Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.471534Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[E][2024-02-17T02:25:56.616176Z] Date and Time: Failed to update from NTP server pool.ntp.org
+[W][2024-02-17T02:25:56.742808Z] Orchestrator: Server not found in this network
+[W][2024-02-17T02:25:56.869053Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2024-02-17T02:25:56.042647Z] Orchestrator: Failed to connect to server over TCP
+[I][2024-02-17T02:25:56.160526Z] Webhooks: Enabled on port 80
+[I][2024-02-17T02:25:56.322285Z] MQTT: Connected
+[I][2024-02-17T02:25:55.116332Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.236119Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.514920Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:27:26.848574Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:27:26.878774Z] Orchestrator: Server not found in this network
+[W][2025-09-19T21:27:26.914427Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-19T21:27:26.974857Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-19T21:27:26.024021Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:27:26.099468Z] MQTT: Connected
+[E][2025-09-19T21:28:03.234259Z] Orchestrator: Failed to connect to server over TCP
+[I][2024-02-17T02:25:55.095819Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.214515Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.428503Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:28:07.749562Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:28:07.875771Z] Orchestrator: Server not found in this network
+[W][2025-09-19T21:28:07.006406Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-19T21:28:07.163707Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-19T21:28:07.310284Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:28:07.485063Z] MQTT: Connected
+[E][2025-09-19T21:28:11.877517Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-19T21:28:47.641053Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.077027Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.158694Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.412610Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:32:31.700668Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:32:31.804870Z] Orchestrator: Server not found in this network
+[W][2025-09-19T21:32:31.913018Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-19T21:32:31.066459Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-19T21:32:31.186772Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:32:31.337887Z] MQTT: Connected
+[E][2025-09-19T21:32:45.322634Z] Orchestrator: Failed to connect to server over TCP
+[I][2024-02-17T02:25:55.111441Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.268384Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.519615Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:32:50.721657Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:32:50.079876Z] Orchestrator: Server not found in this network
+[W][2025-09-19T21:32:50.152254Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-19T21:32:50.259028Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-19T21:32:50.347985Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:32:50.477326Z] MQTT: Connected
+[E][2025-09-19T21:32:54.161501Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-19T21:33:18.093275Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2025-09-19T21:35:17.678710Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.098337Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.240505Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.540585Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:36:44.879708Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:36:44.038413Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-19T21:36:44.236784Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-19T21:36:44.450446Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:36:44.585451Z] MQTT: Connected
+[I][2024-02-17T02:25:55.083551Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.140451Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.374483Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:36:58.504615Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:36:58.587761Z] Orchestrator: Server not found in this network
+[W][2025-09-19T21:36:58.673299Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-19T21:36:58.779332Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-19T21:36:58.880845Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:36:58.012382Z] MQTT: Connected
+[I][2024-02-17T02:25:55.115542Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.248038Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.546377Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:40:17.087458Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:40:17.232618Z] Orchestrator: Server not found in this network
+[W][2025-09-19T21:40:17.374477Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-19T21:40:17.531257Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-19T21:40:17.862249Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:40:17.953724Z] MQTT: Connected
+[E][2025-09-19T21:40:21.917530Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-19T21:40:41.343588Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2025-09-19T21:41:06.186086Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2025-09-19T21:42:31.186644Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.103507Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.213748Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.487371Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-19T21:49:13.816472Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-19T21:49:13.942637Z] Orchestrator: Server not found in this network
+[W][2025-09-19T21:49:13.075814Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-19T21:49:13.231542Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-19T21:49:13.378368Z] Webhooks: Enabled on port 80
+[I][2025-09-19T21:49:13.562604Z] MQTT: Connected
+[I][2025-09-19T21:49:31.927516Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2025-09-20T07:39:29.992441Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[W][2025-09-20T07:42:07.559999Z] Orchestrator: Unknown request []
+[W][2025-09-20T07:42:41.842090Z] Orchestrator: Unknown request []
+[I][2025-09-20T07:44:06.211631Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[W][2025-09-20T07:44:14.745467Z] Orchestrator: Unknown request []
+[I][2025-09-20T07:44:58.393534Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.103781Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.223602Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.507418Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-20T07:50:25.816494Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-20T07:50:25.955687Z] Orchestrator: Server not found in this network
+[W][2025-09-20T07:50:25.094833Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-20T07:50:25.270080Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-20T07:50:25.428795Z] Webhooks: Enabled on port 80
+[I][2025-09-20T07:50:25.612575Z] MQTT: Connected
+[E][2025-09-20T07:50:40.797947Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-20T07:51:32.252138Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-20T07:51:45.863443Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-20T07:51:54.625050Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-20T07:52:09.155947Z] Orchestrator: Replied Restart command to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.096857Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.184468Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.376732Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-20T07:52:13.550488Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-20T07:52:13.665151Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-20T07:52:13.792398Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-20T07:52:13.917832Z] Webhooks: Enabled on port 80
+[I][2025-09-20T07:52:13.073550Z] MQTT: Connected
+[I][2025-09-20T07:52:25.094736Z] Orchestrator: Sent device configuration file to 192.168.2.10:30030
+[I][2025-09-20T07:52:54.416781Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2025-09-20T07:56:33.480819Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2025-09-20T07:57:57.728919Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2025-09-20T07:59:25.477426Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.088811Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.162374Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.405381Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-20T08:09:53.664461Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-20T08:09:53.787106Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-20T08:09:53.905745Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-20T08:09:53.018880Z] Webhooks: Enabled on port 80
+[I][2025-09-20T08:09:53.156821Z] MQTT: Connected
+[I][2025-09-20T08:09:57.231570Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2025-09-20T08:10:12.400105Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.122416Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.277189Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.590304Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-20T08:18:54.941417Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-20T08:18:54.109272Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-20T08:18:54.481742Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-20T08:18:54.563559Z] Webhooks: Enabled on port 80
+[I][2025-09-20T08:18:54.665503Z] MQTT: Connected
+[I][2024-02-17T02:25:55.094985Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.196609Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.463262Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[E][2024-02-17T02:25:56.821970Z] Date and Time: Failed to update from NTP server pool.ntp.org
+[W][2024-02-17T02:25:56.953461Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2024-02-17T02:25:56.096171Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2024-02-17T02:25:56.227859Z] Webhooks: Enabled on port 80
+[I][2024-02-17T02:25:56.385068Z] MQTT: Connected
+[I][2024-02-17T02:26:04.448120Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.124184Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.284743Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.614304Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-20T08:29:14.958428Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-20T08:29:14.324801Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-20T08:29:14.418068Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-20T08:29:14.508001Z] Webhooks: Enabled on port 80
+[I][2025-09-20T08:29:14.620637Z] MQTT: Connected
+[I][2025-09-20T08:29:25.286943Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.101994Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.201994Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.430406Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-20T08:43:05.687525Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-20T08:43:05.769654Z] Orchestrator: Server not found in this network
+[W][2025-09-20T08:43:05.853461Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[E][2025-09-20T08:43:05.955234Z] Orchestrator: Failed to connect to server over TCP
+[I][2025-09-20T08:43:05.088435Z] Webhooks: Enabled on port 80
+[I][2025-09-20T08:43:05.245247Z] MQTT: Connected
+[I][2025-09-20T08:43:24.320163Z] Orchestrator: Replied Restart command to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.131979Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.470769Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.633410Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-20T08:43:29.730529Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-20T08:43:29.813382Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-20T08:43:29.915278Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-20T08:43:29.017999Z] Webhooks: Enabled on port 80
+[I][2025-09-20T08:43:29.138737Z] MQTT: Connected
+[I][2025-09-20T08:43:32.441913Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2024-02-17T02:25:55.110477Z] DeviceIQ 1.0.1
+[I][2024-02-17T02:25:55.239517Z] Components: 0 component(s) installed
+[I][2024-02-17T02:25:56.526353Z] Network: DEVIQ-LAB MAC D8:13:2A:7E:EE:C4 connected to IOT-2 IP 192.168.2.246
+[I][2025-09-20T08:50:00.818474Z] Date and Time: Updated from NTP server pool.ntp.org
+[W][2025-09-20T08:50:00.960142Z] Orchestrator: Device assigned to server ID ZCZ95YJJ693UF78
+[I][2025-09-20T08:50:00.125249Z] Orchestrator: Sent updated device info to 192.168.2.10:30030
+[I][2025-09-20T08:50:00.280043Z] Webhooks: Enabled on port 80
+[I][2025-09-20T08:50:00.475164Z] MQTT: Connected
+[I][2025-09-20T08:50:03.576071Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[W][2025-09-22T13:24:11.910923Z] Orchestrator: Unknown request []
+[I][2025-09-22T13:24:57.744645Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[W][2025-09-22T13:56:28.530253Z] Orchestrator: Unknown request []
+[I][2025-09-22T14:18:13.540309Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2025-09-22T14:21:40.121886Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2025-09-22T14:22:27.362465Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2025-09-22T14:24:47.624509Z] Orchestrator: Sent device log file to 192.168.2.10:30030
+[I][2025-09-22T14:27:30.612270Z] Orchestrator: Sent device log file to 192.168.2.10:30030

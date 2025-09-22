@@ -119,6 +119,26 @@
 			"path" : "build/vcpkg_installed/x64-linux/share/nlohmann_json/nlohmann_jsonTargets.cmake"
 		},
 		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-linux/share/mbedtls/MbedTLSConfigVersion.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-linux/share/mbedtls/MbedTLSConfig.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-linux/share/mbedtls/MbedTLSTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-linux/share/mbedtls/MbedTLSTargets-debug.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-linux/share/mbedtls/MbedTLSTargets-release.cmake"
+		},
+		{
 			"path" : "vcpkg.json"
 		}
 	],

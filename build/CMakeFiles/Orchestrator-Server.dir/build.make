@@ -188,6 +188,12 @@ bin/Orchestrator-Server: CMakeFiles/Orchestrator-Server.dir/src/String.cpp.o
 bin/Orchestrator-Server: CMakeFiles/Orchestrator-Server.dir/src/Tools.cpp.o
 bin/Orchestrator-Server: CMakeFiles/Orchestrator-Server.dir/src/main.cpp.o
 bin/Orchestrator-Server: CMakeFiles/Orchestrator-Server.dir/build.make
+bin/Orchestrator-Server: vcpkg_installed/x64-linux/debug/lib/libmbedcrypto.a
+bin/Orchestrator-Server: vcpkg_installed/x64-linux/debug/lib/libmbedtls.a
+bin/Orchestrator-Server: vcpkg_installed/x64-linux/debug/lib/libmbedx509.a
+bin/Orchestrator-Server: vcpkg_installed/x64-linux/debug/lib/libmbedcrypto.a
+bin/Orchestrator-Server: vcpkg_installed/x64-linux/debug/lib/libeverest.a
+bin/Orchestrator-Server: vcpkg_installed/x64-linux/debug/lib/libp256m.a
 bin/Orchestrator-Server: CMakeFiles/Orchestrator-Server.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable bin/Orchestrator-Server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Orchestrator-Server.dir/link.txt --verbose=$(VERBOSE)

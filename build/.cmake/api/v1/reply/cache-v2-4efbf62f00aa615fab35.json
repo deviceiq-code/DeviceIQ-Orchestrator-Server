@@ -1106,6 +1106,18 @@
 			"value" : "[/home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/share/nlohmann_json/nlohmann_jsonConfig.cmake][v3.12.0()]"
 		},
 		{
+			"name" : "MbedTLS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for MbedTLS."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/share/mbedtls"
+		},
+		{
 			"name" : "Orchestrator-Server_BINARY_DIR",
 			"properties" : 
 			[

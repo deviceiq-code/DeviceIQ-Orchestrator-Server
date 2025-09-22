@@ -207,6 +207,9 @@ CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=~/vcpkg/scripts/buildsystems/vcpkg.cmake
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//The directory containing a CMake configuration file for MbedTLS.
+MbedTLS_DIR:PATH=/home/fernando/Repos/DeviceIQ-Orchestrator-Server/build/vcpkg_installed/x64-linux/share/mbedtls
+
 //Value Computed by CMake
 Orchestrator-Server_BINARY_DIR:STATIC=/home/fernando/Repos/DeviceIQ-Orchestrator-Server/build
 

@@ -1,6 +1,7 @@
 #ifndef ORCHESTRATORSERVER_H
 #define ORCHESTRATORSERVER_H
 
+#include <algorithm>
 #include <arpa/inet.h>
 #include <chrono>
 #include <csignal>
@@ -11,6 +12,7 @@
 #include <fstream>
 #include <ifaddrs.h>
 #include <iostream>
+#include <mbedtls/base64.h>
 #include <net/if.h>
 #include <netdb.h>
 #include <nlohmann/json.hpp>

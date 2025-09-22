@@ -794,22 +794,61 @@ bool OrchestratorServer::handle_GetLog(OrchestratorClient*& client) {
 }
 
 bool OrchestratorServer::SaveDeviceLog(const json &payload) {
-    std::cout << payload.dump(4) << std::endl;
+    if (!payload.is_object()) return false;
 
-    // std::string mac = config["Network"]["MAC Address"].get<std::string>();
-    // mac.erase(std::remove(mac.begin(), mac.end(), ':'), mac.end());
+    const std::string filename = payload.value("Filename", "");
+    const std::string encoding = payload.value("Encoding", "");
+    const std::string checksum_hex = payload.value("Checksum", "");
+    const std::string data_b64 = payload.value("Data", "");
+    std::string mac = payload.value("MAC Address", "");
 
-    // std::string config_file = "./log/" + mac + ".log";
+    mac.erase(std::remove(mac.begin(), mac.end(), ':'), mac.end());
 
-    // filesystem::create_directories("./log");
+    if (encoding != "base64") return false;
+    if (data_b64.empty() || mac.empty()) return false;
 
-    // std::ofstream outFile(config_file);
-    // if (!outFile.is_open()) return false;
+    std::vector<uint8_t> decoded;
+    decoded.resize((data_b64.size() * 3) / 4 + 4);
 
-    // outFile << config.dump(4);
-    // outFile.close();
+    size_t out_len = 0;
+    int b64ret = mbedtls_base64_decode(
+        decoded.data(), decoded.size(), &out_len,
+        reinterpret_cast<const unsigned char*>(data_b64.data()), data_b64.size()
+    );
+    if (b64ret != 0) {
+        // ServerLog->Write("Base 64 ret != 0", LOGLEVEL_ERROR);
+        return false;
+    }
+    decoded.resize(out_len);
 
-    // return !outFile.fail();
 
-    return true;
+    if (!checksum_hex.empty()) {
+        uint32_t expected = 0;
+        if (!hex_to_u32(checksum_hex, expected)) return false;
+        uint32_t got = crc32_update(0, decoded.data(), decoded.size());
+        if (got != expected) {
+            // ServerLog->Write("CRC mismatch on log download", LOGLEVEL_WARNING);
+            return false;
+        }
+    }
+
+    std::string log_file = "./log/" + mac + ".log";
+    filesystem::create_directories("./log");
+
+    std::ios_base::openmode mode = std::ios::binary | std::ios::out;
+    
+    bool newLog = JSON(Configuration["Configuration"]["New Log"].get<bool>(), true);
+    mode |= (newLog ? std::ios::trunc : std::ios::app);
+
+    std::ofstream out(log_file, mode);
+    if (!out.is_open()) return false;
+
+    if (!newLog) out << "\n--- Append log file: " << CurrentDateTime() << " ---\n";
+
+    out.write(reinterpret_cast<const char*>(decoded.data()), static_cast<std::streamsize>(decoded.size()));
+    out.flush();
+    bool ok = out.good();
+    out.close();
+
+    return ok;
 }

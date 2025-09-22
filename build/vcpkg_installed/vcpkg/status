@@ -22,3 +22,12 @@ Abi: 10593cfaba5beb7d4cb04e7bddff341df073b3ed4af17f4a88ef356f661552bf
 Description: JSON for Modern C++
 Status: install ok installed
 
+Package: mbedtls
+Version: 3.6.4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: c9f458a1e2f42aa2d687c5b47f85bfd3399e7de7d759c9cfe6d0c9bbe026cdf3
+Description: An open source, portable, easy to use, readable and flexible SSL library
+Status: install ok installed
+

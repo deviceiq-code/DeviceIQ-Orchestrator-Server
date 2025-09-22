@@ -1091,6 +1091,16 @@ CMakeFiles/Orchestrator-Server.dir/src/OrchestratorClient.cpp.o: /home/fernando/
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
 CMakeFiles/Orchestrator-Server.dir/src/OrchestratorServer.cpp.o: /home/fernando/Repos/DeviceIQ-Orchestrator-Server/src/OrchestratorServer.cpp \
+  vcpkg_installed/x64-linux/include/mbedtls/base64.h \
+  vcpkg_installed/x64-linux/include/mbedtls/build_info.h \
+  vcpkg_installed/x64-linux/include/mbedtls/check_config.h \
+  vcpkg_installed/x64-linux/include/mbedtls/config_adjust_legacy_crypto.h \
+  vcpkg_installed/x64-linux/include/mbedtls/config_adjust_psa_from_legacy.h \
+  vcpkg_installed/x64-linux/include/mbedtls/config_adjust_psa_superset_legacy.h \
+  vcpkg_installed/x64-linux/include/mbedtls/config_adjust_ssl.h \
+  vcpkg_installed/x64-linux/include/mbedtls/config_adjust_x509.h \
+  vcpkg_installed/x64-linux/include/mbedtls/config_psa.h \
+  vcpkg_installed/x64-linux/include/mbedtls/mbedtls_config.h \
   vcpkg_installed/x64-linux/include/nlohmann/adl_serializer.hpp \
   vcpkg_installed/x64-linux/include/nlohmann/byte_container_with_subtype.hpp \
   vcpkg_installed/x64-linux/include/nlohmann/detail/abi_macros.hpp \
@@ -1137,6 +1147,11 @@ CMakeFiles/Orchestrator-Server.dir/src/OrchestratorServer.cpp.o: /home/fernando/
   vcpkg_installed/x64-linux/include/nlohmann/ordered_map.hpp \
   vcpkg_installed/x64-linux/include/nlohmann/thirdparty/hedley/hedley.hpp \
   vcpkg_installed/x64-linux/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+  vcpkg_installed/x64-linux/include/psa/crypto_adjust_auto_enabled.h \
+  vcpkg_installed/x64-linux/include/psa/crypto_adjust_config_dependencies.h \
+  vcpkg_installed/x64-linux/include/psa/crypto_adjust_config_key_pair_types.h \
+  vcpkg_installed/x64-linux/include/psa/crypto_adjust_config_synonyms.h \
+  vcpkg_installed/x64-linux/include/psa/crypto_legacy.h \
   /home/fernando/Repos/DeviceIQ-Orchestrator-Server/include/Tools.h \
   /home/fernando/Repos/DeviceIQ-Orchestrator-Server/include/Version.h \
   /home/fernando/Repos/DeviceIQ-Orchestrator-Server/include/Log.h \
@@ -2209,6 +2224,16 @@ CMakeFiles/Orchestrator-Server.dir/src/Tools.cpp.o: /home/fernando/Repos/DeviceI
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
 CMakeFiles/Orchestrator-Server.dir/src/main.cpp.o: /home/fernando/Repos/DeviceIQ-Orchestrator-Server/src/main.cpp \
+  vcpkg_installed/x64-linux/include/mbedtls/base64.h \
+  vcpkg_installed/x64-linux/include/mbedtls/build_info.h \
+  vcpkg_installed/x64-linux/include/mbedtls/check_config.h \
+  vcpkg_installed/x64-linux/include/mbedtls/config_adjust_legacy_crypto.h \
+  vcpkg_installed/x64-linux/include/mbedtls/config_adjust_psa_from_legacy.h \
+  vcpkg_installed/x64-linux/include/mbedtls/config_adjust_psa_superset_legacy.h \
+  vcpkg_installed/x64-linux/include/mbedtls/config_adjust_ssl.h \
+  vcpkg_installed/x64-linux/include/mbedtls/config_adjust_x509.h \
+  vcpkg_installed/x64-linux/include/mbedtls/config_psa.h \
+  vcpkg_installed/x64-linux/include/mbedtls/mbedtls_config.h \
   vcpkg_installed/x64-linux/include/nlohmann/adl_serializer.hpp \
   vcpkg_installed/x64-linux/include/nlohmann/byte_container_with_subtype.hpp \
   vcpkg_installed/x64-linux/include/nlohmann/detail/abi_macros.hpp \
@@ -2255,6 +2280,11 @@ CMakeFiles/Orchestrator-Server.dir/src/main.cpp.o: /home/fernando/Repos/DeviceIQ
   vcpkg_installed/x64-linux/include/nlohmann/ordered_map.hpp \
   vcpkg_installed/x64-linux/include/nlohmann/thirdparty/hedley/hedley.hpp \
   vcpkg_installed/x64-linux/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+  vcpkg_installed/x64-linux/include/psa/crypto_adjust_auto_enabled.h \
+  vcpkg_installed/x64-linux/include/psa/crypto_adjust_config_dependencies.h \
+  vcpkg_installed/x64-linux/include/psa/crypto_adjust_config_key_pair_types.h \
+  vcpkg_installed/x64-linux/include/psa/crypto_adjust_config_synonyms.h \
+  vcpkg_installed/x64-linux/include/psa/crypto_legacy.h \
   /home/fernando/Repos/DeviceIQ-Orchestrator-Server/include/Tools.h \
   /home/fernando/Repos/DeviceIQ-Orchestrator-Server/include/Version.h \
   /home/fernando/Repos/DeviceIQ-Orchestrator-Server/include/CommandLineParser.h \
@@ -2738,10 +2768,6 @@ CMakeFiles/Orchestrator-Server.dir/src/main.cpp.o: /home/fernando/Repos/DeviceIQ
 
 /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
-
-/usr/include/ifaddrs.h:
-
 /usr/include/c++/13/stop_token:
 
 /usr/include/c++/13/semaphore:
@@ -2749,8 +2775,6 @@ CMakeFiles/Orchestrator-Server.dir/src/main.cpp.o: /home/fernando/Repos/DeviceIQ
 /usr/include/c++/13/csignal:
 
 /usr/include/c++/13/bits/this_thread_sleep.h:
-
-/usr/include/c++/13/bits/semaphore_base.h:
 
 /usr/include/c++/13/random:
 
@@ -2763,6 +2787,32 @@ CMakeFiles/Orchestrator-Server.dir/src/main.cpp.o: /home/fernando/Repos/DeviceIQ
 /usr/include/c++/13/atomic:
 
 /home/fernando/Repos/DeviceIQ-Orchestrator-Server/include/OrchestratorServer.h:
+
+vcpkg_installed/x64-linux/include/psa/crypto_legacy.h:
+
+vcpkg_installed/x64-linux/include/psa/crypto_adjust_config_synonyms.h:
+
+vcpkg_installed/x64-linux/include/mbedtls/mbedtls_config.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
+
+/usr/include/ifaddrs.h:
+
+vcpkg_installed/x64-linux/include/mbedtls/config_psa.h:
+
+vcpkg_installed/x64-linux/include/mbedtls/config_adjust_x509.h:
+
+vcpkg_installed/x64-linux/include/mbedtls/config_adjust_ssl.h:
+
+/usr/include/c++/13/bits/semaphore_base.h:
+
+vcpkg_installed/x64-linux/include/mbedtls/config_adjust_psa_superset_legacy.h:
+
+vcpkg_installed/x64-linux/include/mbedtls/config_adjust_psa_from_legacy.h:
+
+vcpkg_installed/x64-linux/include/mbedtls/config_adjust_legacy_crypto.h:
+
+vcpkg_installed/x64-linux/include/mbedtls/base64.h:
 
 /home/fernando/Repos/DeviceIQ-Orchestrator-Server/src/OrchestratorServer.cpp:
 
@@ -2799,6 +2849,8 @@ CMakeFiles/Orchestrator-Server.dir/src/main.cpp.o: /home/fernando/Repos/DeviceIQ
 /usr/include/x86_64-linux-gnu/bits/in.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+vcpkg_installed/x64-linux/include/mbedtls/build_info.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
@@ -2973,6 +3025,8 @@ CMakeFiles/Orchestrator-Server.dir/src/main.cpp.o: /home/fernando/Repos/DeviceIQ
 /home/fernando/Repos/DeviceIQ-Orchestrator-Server/include/Version.h:
 
 /home/fernando/Repos/DeviceIQ-Orchestrator-Server/include/Tools.h:
+
+vcpkg_installed/x64-linux/include/psa/crypto_adjust_auto_enabled.h:
 
 vcpkg_installed/x64-linux/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
 
@@ -3502,6 +3556,8 @@ vcpkg_installed/x64-linux/include/nlohmann/detail/abi_macros.hpp:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
+vcpkg_installed/x64-linux/include/mbedtls/check_config.h:
+
 /usr/include/c++/13/bits/requires_hosted.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
@@ -3511,6 +3567,8 @@ vcpkg_installed/x64-linux/include/nlohmann/detail/abi_macros.hpp:
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+vcpkg_installed/x64-linux/include/psa/crypto_adjust_config_key_pair_types.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
@@ -3535,6 +3593,8 @@ vcpkg_installed/x64-linux/include/nlohmann/detail/exceptions.hpp:
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+vcpkg_installed/x64-linux/include/psa/crypto_adjust_config_dependencies.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
