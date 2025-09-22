@@ -21,16 +21,100 @@ void OrchestratorServer::init() {
     }
 }
 
-std::string OrchestratorServer::queryIPAddress(const char* mac_address) {
-    if (Configuration.contains("Managed Devices") || Configuration["Managed Devices"].is_object()) {
-        for (const auto& [device_id, device_info] : Configuration["Managed Devices"].items()) {
-            if (device_info.value("MAC Address", "") == mac_address) {
-                return device_info.value("IP Address", "IP Not Found");
+std::string OrchestratorServer::queryHostname(const char* mac_address) {
+    if (!mac_address || *mac_address == '\0') return "Hostname Not Found";
+
+    auto normalizeMac = [](std::string mac, bool keep_colons) {
+        mac.erase(std::remove_if(mac.begin(), mac.end(), ::isspace), mac.end());
+        std::transform(mac.begin(), mac.end(), mac.begin(),
+                       [](unsigned char c){ return std::toupper(c); });
+        if (!keep_colons) {
+            mac.erase(std::remove(mac.begin(), mac.end(), ':'), mac.end());
+        }
+        return mac;
+    };
+
+    const std::string in_mac_colons   = normalizeMac(mac_address, /*keep_colons=*/true);
+    const std::string in_mac_nocolons = normalizeMac(mac_address, /*keep_colons=*/false);
+
+    const std::vector<std::string> sections = {
+        "Managed Devices",
+        "Unmanaged Devices"
+    };
+
+    for (const auto& section : sections) {
+        if (!Configuration.contains(section) || !Configuration[section].is_object()) continue;
+
+        for (const auto& [device_id, device_info] : Configuration[section].items()) {
+            // 1) Comparar com a chave
+            std::string key_colons   = normalizeMac(device_id, true);
+            std::string key_nocolons = normalizeMac(device_id, false);
+            bool match_by_key = (key_colons == in_mac_colons) || (key_nocolons == in_mac_nocolons);
+
+            // 2) Comparar com o campo interno "MAC Address", se existir
+            bool match_by_field = false;
+            if (device_info.is_object() && device_info.contains("MAC Address")) {
+                std::string field_mac = device_info.value("MAC Address", "");
+                std::string fld_col   = normalizeMac(field_mac, true);
+                std::string fld_nocol = normalizeMac(field_mac, false);
+                match_by_field = (fld_col == in_mac_colons) || (fld_nocol == in_mac_nocolons);
+            }
+
+            if (match_by_key || match_by_field) {
+                return device_info.value("Hostname", "Hostname Not Found");
             }
         }
     }
-    
-    return "IP Not Found";
+
+    return "Hostname Not Found";
+}
+
+std::string OrchestratorServer::queryIPAddress(const char* mac_address) {
+    if (!mac_address || *mac_address == '\0') return "IP Address Not Found";
+
+    auto normalizeMac = [](std::string mac, bool keep_colons) {
+        mac.erase(std::remove_if(mac.begin(), mac.end(), ::isspace), mac.end());
+        std::transform(mac.begin(), mac.end(), mac.begin(),
+                       [](unsigned char c){ return std::toupper(c); });
+        if (!keep_colons) {
+            mac.erase(std::remove(mac.begin(), mac.end(), ':'), mac.end());
+        }
+        return mac;
+    };
+
+    const std::string in_mac_colons   = normalizeMac(mac_address, /*keep_colons=*/true);
+    const std::string in_mac_nocolons = normalizeMac(mac_address, /*keep_colons=*/false);
+
+    const std::vector<std::string> sections = {
+        "Managed Devices",
+        "Unmanaged Devices"
+    };
+
+    for (const auto& section : sections) {
+        if (!Configuration.contains(section) || !Configuration[section].is_object()) continue;
+
+        for (const auto& [device_id, device_info] : Configuration[section].items()) {
+            // 1) Comparar com a chave
+            std::string key_colons   = normalizeMac(device_id, true);
+            std::string key_nocolons = normalizeMac(device_id, false);
+            bool match_by_key = (key_colons == in_mac_colons) || (key_nocolons == in_mac_nocolons);
+
+            // 2) Comparar com o campo interno "MAC Address", se existir
+            bool match_by_field = false;
+            if (device_info.is_object() && device_info.contains("MAC Address")) {
+                std::string field_mac = device_info.value("MAC Address", "");
+                std::string fld_col   = normalizeMac(field_mac, true);
+                std::string fld_nocol = normalizeMac(field_mac, false);
+                match_by_field = (fld_col == in_mac_colons) || (fld_nocol == in_mac_nocolons);
+            }
+
+            if (match_by_key || match_by_field) {
+                return device_info.value("IP Address", "IP Address Not Found");
+            }
+        }
+    }
+
+    return "IP Address Not Found";
 }
 
 std::string OrchestratorServer::queryMACAddress(const char* ip_address) {
@@ -787,7 +871,7 @@ bool OrchestratorServer::handle_GetLog(OrchestratorClient*& client) {
     const json &Parameter = client->IncomingJSON()["Parameter"];
 
     if (SaveDeviceLog(Parameter)) {
-        ServerLog->Write("Log device " + Parameter["MAC Address"].get<String>() + " saved successfully", LOGLEVEL_INFO);
+        ServerLog->Write("Log device " + queryHostname(Parameter["MAC Address"].get<String>().c_str()) + " saved successfully", LOGLEVEL_INFO);
         return replyClient(client, "Ok");
     }
     ServerLog->Write("Failed saving device " + Parameter["Hostname"].get<String>() + " log", LOGLEVEL_ERROR);

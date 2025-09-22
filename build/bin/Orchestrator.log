@@ -1,10 +1,38 @@
-[I][2025-09-22T19:27:18.881661Z] Configuration file: ./Orchestrator.json
-[I][2025-09-22T19:27:18.881969Z] Server name: Genesis
-[I][2025-09-22T19:27:18.882088Z] Server ID: ZCZ95YJJ693UF78
-[I][2025-09-22T19:27:18.882180Z] Server Version: 1.0.0
-[I][2025-09-22T19:27:18.882464Z] TCP bound at 192.168.2.10:30030
-[I][2025-09-22T19:27:18.882614Z] UDP bound at 0.0.0.0:30030
-[I][2025-09-22T19:27:18.882754Z] Orchestrator Manager is running (pid 127391)
-[I][2025-09-22T19:27:18.883276Z] Orchestrator status file /var/www/html/status.json updated
-[I][2025-09-22T19:27:22.098861Z] Device [DEVIQ-LAB] sent ACK to ClearLog
-[I][2025-09-22T19:27:41.031979Z] Log device D8:13:2A:7E:EE:C4 saved successfully
+[I][2025-09-22T19:48:39.072556Z] Configuration file: ./Orchestrator.json
+[I][2025-09-22T19:48:39.072871Z] Server name: Genesis
+[I][2025-09-22T19:48:39.073030Z] Server ID: ZCZ95YJJ693UF78
+[I][2025-09-22T19:48:39.073155Z] Server Version: 1.0.0
+[I][2025-09-22T19:48:39.073466Z] TCP bound at 192.168.2.10:30030
+[I][2025-09-22T19:48:39.073634Z] UDP bound at 0.0.0.0:30030
+[I][2025-09-22T19:48:39.073779Z] Orchestrator Manager is running (pid 128896)
+[I][2025-09-22T19:48:39.074294Z] Orchestrator status file /var/www/html/status.json updated
+[I][2025-09-22T19:48:42.291471Z] Log device DEVIQ-LAB saved successfully
+[I][2025-09-22T19:48:54.314753Z] Device [DEVIQ-LAB] sent ACK to ClearLog
+[I][2025-09-22T19:48:56.864119Z] Log device DEVIQ-LAB saved successfully
+[I][2025-09-22T19:49:09.198394Z] Device [DEVIQ-LAB] sent ACK to restart
+[I][2025-09-22T19:49:11.117439Z] UDP Discover replied to 192.168.2.246
+[I][2025-09-22T19:49:11.359553Z] DEVIQ-LAB information saved on Managed Devices section
+[I][2025-09-22T19:49:15.493877Z] Log device DEVIQ-LAB saved successfully
+[I][2025-09-22T19:50:23.687865Z] Configuration device DEVIQ-LAB saved successfully
+[I][2025-09-22T19:50:40.411122Z] Log device DEVIQ-LAB saved successfully
+[I][2025-09-22T19:51:04.710290Z] Log device DEVIQ-LAB saved successfully
+[I][2025-09-22T19:54:19.639897Z] Log device DEVIQ-LAB saved successfully
+[I][2025-09-22T19:54:28.568420Z] Device [DEVIQ-LAB] sent ACK to ClearLog
+[I][2025-09-22T19:54:38.293087Z] Log device DEVIQ-LAB saved successfully
+[I][2025-09-22T20:03:41.515103Z] Log device DEVIQ-LAB saved successfully
+[I][2025-09-22T20:05:14.111848Z] Device [DEVIQ-LAB] sent ACK to ClearLog
+[I][2025-09-22T20:06:23.320497Z] DEVIQ-LAB information saved on Managed Devices section
+[I][2025-09-22T20:06:23.369555Z] DEVIQ-DEV information saved on Managed Devices section
+[I][2025-09-22T20:07:57.824796Z] Device [DEVIQ-LAB] sent ACK to restart
+[I][2025-09-22T20:07:57.877695Z] Device [DEVIQ-DEV] sent ACK to restart
+[I][2025-09-22T20:07:59.969375Z] UDP Discover replied to 192.168.2.246
+[I][2025-09-22T20:08:00.201745Z] DEVIQ-LAB information saved on Managed Devices section
+[I][2025-09-22T20:08:00.220236Z] UDP Discover replied to 192.168.2.114
+[I][2025-09-22T20:08:00.403909Z] DEVIQ-DEV information saved on Managed Devices section
+[I][2025-09-22T20:10:37.772215Z] Configuration device DEVIQ-DEV saved successfully
+[I][2025-09-22T20:10:37.791492Z] Configuration device DEVIQ-LAB saved successfully
+[I][2025-09-22T20:10:51.851531Z] Device [DEVIQ-DEV] sent ACK to restart
+[I][2025-09-22T20:10:53.425156Z] UDP Discover replied to 192.168.2.114
+[I][2025-09-22T20:10:53.648329Z] DEVIQ-DEV information saved on Managed Devices section
+[I][2025-09-22T20:10:54.255067Z] UDP Discover replied to 192.168.2.246
+[I][2025-09-22T20:10:54.466216Z] DEVIQ-LAB information saved on Managed Devices section

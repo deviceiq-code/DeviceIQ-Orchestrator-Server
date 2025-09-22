@@ -75,6 +75,7 @@ class OrchestratorServer {
         std::string generateRandomID() { std::string result; const std::string valid_characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"; std::random_device rd; std::mt19937 generator(rd()); std::uniform_int_distribution<> distribution(0, valid_characters.size() - 1); for (int i = 0; i < 15; ++i) { result += valid_characters[distribution(generator)]; } return result; }
         std::string queryIPAddress(const char* mac_address);
         std::string queryMACAddress(const char* ip_address);
+        std::string queryHostname(const char* mac_address);
 
         bool readConfiguration();
         bool saveConfiguration() { ofstream outFile(mConfigFile.c_str()); if (!outFile.is_open()) return false; outFile << Configuration.dump(4); outFile.close(); return !outFile.fail(); }
