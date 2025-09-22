@@ -1,36 +1,10 @@
 Detecting compiler hash for triplet x64-linux...
 Compiler found: /usr/bin/c++
 The following packages are already installed:
+    mbedtls:x64-linux@3.6.4
     nlohmann-json:x64-linux@3.12.0#1
   * vcpkg-cmake:x64-linux@2024-04-23
   * vcpkg-cmake-config:x64-linux@2024-05-23
-The following packages will be built and installed:
-    mbedtls:x64-linux@3.6.4
-Restored 0 package(s) from /home/fernando/.cache/vcpkg/archives in 14.1 ms. Use --debug to see more details.
-Installing 1/1 mbedtls:x64-linux@3.6.4...
-Building mbedtls:x64-linux@3.6.4...
-Downloading https://github.com/Mbed-TLS/mbedtls/archive/v3.6.4.tar.gz -> Mbed-TLS-mbedtls-v3.6.4.tar.gz
-Successfully downloaded Mbed-TLS-mbedtls-v3.6.4.tar.gz
--- Extracting source /home/fernando/vcpkg/downloads/Mbed-TLS-mbedtls-v3.6.4.tar.gz
--- Applying patch enable-pthread.patch
--- Using source at /home/fernando/vcpkg/buildtrees/mbedtls/src/v3.6.4-101dc3df7f.clean
--- Configuring x64-linux
--- Building x64-linux-dbg
--- Building x64-linux-rel
--- Fixing pkgconfig file: /home/fernando/vcpkg/packages/mbedtls_x64-linux/lib/pkgconfig/mbedcrypto.pc
--- Fixing pkgconfig file: /home/fernando/vcpkg/packages/mbedtls_x64-linux/lib/pkgconfig/mbedtls.pc
--- Fixing pkgconfig file: /home/fernando/vcpkg/packages/mbedtls_x64-linux/lib/pkgconfig/mbedx509.pc
--- Fixing pkgconfig file: /home/fernando/vcpkg/packages/mbedtls_x64-linux/debug/lib/pkgconfig/mbedcrypto.pc
--- Fixing pkgconfig file: /home/fernando/vcpkg/packages/mbedtls_x64-linux/debug/lib/pkgconfig/mbedtls.pc
--- Fixing pkgconfig file: /home/fernando/vcpkg/packages/mbedtls_x64-linux/debug/lib/pkgconfig/mbedx509.pc
--- Installing: /home/fernando/vcpkg/packages/mbedtls_x64-linux/share/mbedtls/copyright
--- Performing post-build validation
-Starting submission of mbedtls:x64-linux@3.6.4 to 1 binary cache(s) in the background
-Elapsed time to handle mbedtls:x64-linux: 12 s
-mbedtls:x64-linux package ABI: c9f458a1e2f42aa2d687c5b47f85bfd3399e7de7d759c9cfe6d0c9bbe026cdf3
-Installed contents are licensed to you by owners. Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Packages installed in this vcpkg installation declare the following licenses:
-(Apache-2.0 OR GPL-2.0-or-later)
 mbedtls provides CMake targets:
 
   find_package(MbedTLS CONFIG REQUIRED)
@@ -63,6 +37,4 @@ For more information, see the docs here:
     
     https://json.nlohmann.me/api/macros/json_use_implicit_conversions/
 
-Waiting for 1 remaining binary cache submissions...
-Completed submission of mbedtls:x64-linux@3.6.4 to 1 binary cache(s) in 1.4 s (1/1)
-All requested installations completed successfully in: 12 s
+All requested installations completed successfully in: 104 us

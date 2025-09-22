@@ -1,8 +1,10 @@
-[I][2025-09-22T17:34:49.573866Z] Configuration file: ./Orchestrator.json
-[I][2025-09-22T17:34:49.574139Z] Server name: Genesis
-[I][2025-09-22T17:34:49.574277Z] Server ID: ZCZ95YJJ693UF78
-[I][2025-09-22T17:34:49.574401Z] Server Version: 1.0.0
-[I][2025-09-22T17:34:49.574597Z] TCP bound at 192.168.2.10:30030
-[I][2025-09-22T17:34:49.574720Z] UDP bound at 0.0.0.0:30030
-[I][2025-09-22T17:34:49.574813Z] Orchestrator Manager is running (pid 121474)
-[I][2025-09-22T17:34:49.575283Z] Orchestrator status file /var/www/html/status.json updated
+[I][2025-09-22T19:27:18.881661Z] Configuration file: ./Orchestrator.json
+[I][2025-09-22T19:27:18.881969Z] Server name: Genesis
+[I][2025-09-22T19:27:18.882088Z] Server ID: ZCZ95YJJ693UF78
+[I][2025-09-22T19:27:18.882180Z] Server Version: 1.0.0
+[I][2025-09-22T19:27:18.882464Z] TCP bound at 192.168.2.10:30030
+[I][2025-09-22T19:27:18.882614Z] UDP bound at 0.0.0.0:30030
+[I][2025-09-22T19:27:18.882754Z] Orchestrator Manager is running (pid 127391)
+[I][2025-09-22T19:27:18.883276Z] Orchestrator status file /var/www/html/status.json updated
+[I][2025-09-22T19:27:22.098861Z] Device [DEVIQ-LAB] sent ACK to ClearLog
+[I][2025-09-22T19:27:41.031979Z] Log device D8:13:2A:7E:EE:C4 saved successfully

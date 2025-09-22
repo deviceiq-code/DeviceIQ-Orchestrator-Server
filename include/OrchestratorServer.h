@@ -70,6 +70,7 @@ class OrchestratorServer {
         bool handle_Pull(OrchestratorClient* &client);
         bool handle_Push(OrchestratorClient* &client);
         bool handle_GetLog(OrchestratorClient* &client);
+        bool handle_ClearLog(OrchestratorClient* &client);
 
         std::string generateRandomID() { std::string result; const std::string valid_characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"; std::random_device rd; std::mt19937 generator(rd()); std::uniform_int_distribution<> distribution(0, valid_characters.size() - 1); for (int i = 0; i < 15; ++i) { result += valid_characters[distribution(generator)]; } return result; }
         std::string queryIPAddress(const char* mac_address);

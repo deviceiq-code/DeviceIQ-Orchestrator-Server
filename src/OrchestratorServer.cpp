@@ -507,6 +507,7 @@ int OrchestratorServer::Manage() {
                 if (Command == "Pull") replied = handle_Pull(client);
                 if (Command == "Push") replied = handle_Push(client);
                 if (Command == "GetLog") replied = handle_GetLog(client);
+                if (Command == "ClearLog") replied = handle_ClearLog(client);
 
                 if (replied) {
                     // ServerLog->Write("Request [" + Command + "] replied to " + client->IPAddress(), LOGLEVEL_INFO);
@@ -791,6 +792,14 @@ bool OrchestratorServer::handle_GetLog(OrchestratorClient*& client) {
     }
     ServerLog->Write("Failed saving device " + Parameter["Hostname"].get<String>() + " log", LOGLEVEL_ERROR);
     return replyClient(client, "Fail");
+}
+
+bool OrchestratorServer::handle_ClearLog(OrchestratorClient*& client) {
+    if (client->IncomingJSON().value("Parameter", "") == "ACK") {
+        ServerLog->Write("Device [" + client->IncomingJSON().value("Hostname", "") + "] sent ACK to ClearLog", LOGLEVEL_INFO);
+        return true;
+    }
+    return false;
 }
 
 bool OrchestratorServer::SaveDeviceLog(const json &payload) {
