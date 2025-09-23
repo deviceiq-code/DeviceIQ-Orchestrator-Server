@@ -7,3 +7,10 @@
 [I][2025-09-23T12:51:44.900755Z] UDP bound at 0.0.0.0:30030
 [I][2025-09-23T12:51:44.900837Z] Orchestrator Manager is running (pid 145516)
 [I][2025-09-23T12:51:44.901243Z] Orchestrator status file /var/www/html/status.json updated
+[I][2025-09-23T12:55:01.785988Z] DEVIQ-LAB information saved on Managed Devices section
+[I][2025-09-23T12:56:23.967896Z] DEVIQ-LAB information saved on Managed Devices section
+[I][2025-09-23T12:56:52.112269Z] Configuration device DEVIQ-LAB saved successfully
+[I][2025-09-23T12:58:43.256210Z] UDP Discover replied to 192.168.2.246
+[I][2025-09-23T12:58:43.575387Z] DEVIQ-LAB information saved on Managed Devices section
+[I][2025-09-23T12:58:49.208901Z] Configuration device DEVIQ-LAB saved successfully
+[I][2025-09-23T12:58:55.732936Z] Device [DEVIQ-LAB - D8:13:2A:7E:EE:C4] removed successfully - Device(s) Managed: 1

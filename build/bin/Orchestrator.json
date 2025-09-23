@@ -27,17 +27,17 @@
             "Local Timestamp": "2025-09-23T08:41:18.955550Z",
             "Product Name": "Home",
             "Version": "1.0.1"
-        },
+        }
+    },
+    "Unmanaged Devices": {
         "D8:13:2A:7E:EE:C4": {
             "Hardware Model": "ESP32-WROOM",
             "Hostname": "DEVIQ-LAB",
             "IP Address": "192.168.2.246",
-            "Last Update": "2025-09-23T12:51:04.642011Z",
-            "Local Timestamp": "2025-09-23T09:21:46.060002Z",
+            "Last Update": "2025-09-23T12:58:55.730235Z",
+            "Local Timestamp": "2025-09-23T09:58:43.125001Z",
             "Product Name": "Home",
             "Version": "1.0.1"
         }
-    },
-    "Unmanaged Devices": {
     }
 }
