@@ -587,6 +587,7 @@ int OrchestratorServer::Manage() {
 
                 if (Command == "CheckOnline") replied = handle_CheckOnline(client);
                 if (Command == "Restart") replied = handle_Restart(client);
+                if (Command == "Add") replied = handle_Add(client);
                 if (Command == "Remove") replied = handle_Remove(client);
                 if (Command == "Update") replied = handle_Update(client);
                 if (Command == "Discover") replied = handle_Discover(client);
@@ -819,6 +820,33 @@ bool OrchestratorServer::handle_Restart(OrchestratorClient* &client) {
     if (client->IncomingJSON().value("Parameter", "") == "ACK") {
         ServerLog->Write("Device [" + client->IncomingJSON().value("Hostname", "") + "] sent ACK to 'Restart' command", LOGLEVEL_INFO);
         return true;
+    }
+    return false;
+}
+
+bool OrchestratorServer::handle_Add(OrchestratorClient* &client) {
+    if (client->IncomingJSON().value("Parameter", "") == "ACK") {
+        auto &managed = Configuration["Managed Devices"];
+        auto it = managed.find(client->IncomingJSON().value("MAC Address", ""));
+        
+        if (it == managed.end()) {
+        //     if (!Configuration.contains("Unmanaged Devices") || !Configuration["Unmanaged Devices"].is_object()) Configuration["Unmanaged Devices"] = nlohmann::json::object();
+        //     auto &unmanaged = Configuration["Unmanaged Devices"];
+
+        //     nlohmann::json dev = std::move(*it);
+        //     managed.erase(it);
+
+        //     dev["Last Update"] = CurrentDateTime();
+        //     unmanaged[client->IncomingJSON().value("MAC Address", "")] = std::move(dev);
+
+        //     saveConfiguration();
+            ServerLog->Write("Device [" + client->IncomingJSON().value("Hostname", "") + " - " + client->IncomingJSON().value("MAC Address", "") + "] added successfully - Device(s) Managed: " + String(DevicesManaged()), LOGLEVEL_INFO);
+            return true;
+        } else {
+            ServerLog->Write("Device [" + client->IncomingJSON().value("Hostname", "") + " - " + client->IncomingJSON().value("MAC Address", "") + "] is already managed by this server - Device(s) Managed: " + String(DevicesManaged()), LOGLEVEL_WARNING);
+        }
+    } else {
+        ServerLog->Write("Error adding device [" + client->IncomingJSON().value("Hostname", "") + " - " + client->IncomingJSON().value("MAC Address", "") + "]", LOGLEVEL_ERROR);
     }
     return false;
 }

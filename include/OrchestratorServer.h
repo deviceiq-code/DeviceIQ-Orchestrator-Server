@@ -66,6 +66,7 @@ class OrchestratorServer {
         bool replyClient(OrchestratorClient* &client, const json &result);
         bool handle_CheckOnline(OrchestratorClient* &client);
         bool handle_Restart(OrchestratorClient* &client);
+        bool handle_Add(OrchestratorClient* &client);
         bool handle_Remove(OrchestratorClient* &client);
         bool handle_Update(OrchestratorClient* &client);
         bool handle_Discover(OrchestratorClient* &client);
