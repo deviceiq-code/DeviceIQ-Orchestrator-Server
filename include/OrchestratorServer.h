@@ -59,12 +59,14 @@ class OrchestratorServer {
         string mLogFile = "./Orchestrator.log";
         string mBindInterface = "";
         string mServerStartedTimestamp;
+        uint16_t mDevicesManaged = 0;
 
         in_addr mBindAddr{};
 
         bool replyClient(OrchestratorClient* &client, const json &result);
         bool handle_CheckOnline(OrchestratorClient* &client);
         bool handle_Restart(OrchestratorClient* &client);
+        bool handle_Remove(OrchestratorClient* &client);
         bool handle_Update(OrchestratorClient* &client);
         bool handle_Discover(OrchestratorClient* &client);
         bool handle_Pull(OrchestratorClient* &client);
@@ -78,7 +80,7 @@ class OrchestratorServer {
         std::string queryHostname(const char* mac_address);
 
         bool readConfiguration();
-        bool saveConfiguration() { ofstream outFile(mConfigFile.c_str()); if (!outFile.is_open()) return false; outFile << Configuration.dump(4); outFile.close(); return !outFile.fail(); }
+        bool saveConfiguration() { updateDevicesManagedCounter(); ofstream outFile(mConfigFile.c_str()); if (!outFile.is_open()) return false; outFile << Configuration.dump(4); outFile.close(); return !outFile.fail(); }
 
         inline bool isManaged(const String &target) { return Configuration["Managed Devices"].contains(target); }
         const json getDevice(const String &target);
@@ -86,6 +88,7 @@ class OrchestratorServer {
         void applyBindForUdpSocket(int sockfd);
         bool resolveInterfaceOrIp(const string& ifaceOrIp, in_addr& out);
         bool setBindInterface(const std::string& ifaceOrIp);
+        void updateDevicesManagedCounter() { if (Configuration.contains("Managed Devices") || Configuration["Managed Devices"].is_object()) mDevicesManaged = Configuration["Managed Devices"].size(); }
 
         void init();
     public:
@@ -102,6 +105,8 @@ class OrchestratorServer {
         bool SaveDeviceLog(const json &payload);
         bool SaveDeviceConfiguration(const json &cfg);
         const json ReadDeviceConfiguration(const String &target);
+ 
+        uint16_t DevicesManaged() { return mDevicesManaged; }
 
         json Configuration;
 };

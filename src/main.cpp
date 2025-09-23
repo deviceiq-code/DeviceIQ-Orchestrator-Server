@@ -48,6 +48,7 @@ int main(int argc, char** argv) {
     ServerLog->Write("Server name: " + Orchestrator->Configuration["Configuration"]["Server Name"].get<string>(), LOGLEVEL_INFO);
     ServerLog->Write("Server ID: " + Orchestrator->Configuration["Configuration"]["Server ID"].get<string>(), LOGLEVEL_INFO);
     ServerLog->Write("Server Version: " + Version.Software.Info(), LOGLEVEL_INFO);
+    ServerLog->Write("Device(s) Managed: " + String(Orchestrator->DevicesManaged()), LOGLEVEL_INFO);
 
     exit(Orchestrator->Manage());
 }

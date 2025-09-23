@@ -19,6 +19,8 @@ void OrchestratorServer::init() {
     } else {    
         throw std::runtime_error("Failed to read configuration file " + mConfigFile);
     }
+
+    updateDevicesManagedCounter();
 }
 
 std::string OrchestratorServer::queryHostname(const char* mac_address) {
@@ -576,7 +578,6 @@ int OrchestratorServer::Manage() {
 
             // Debug - print whatever arrives
             // std::cout << "\r\n---\r\n" << incoming << "\r\n---\r\n" << std::endl;
-            // 
 
             if ((!client->IncomingJSON().empty()) && (JSON<string>(client->IncomingJSON().value("Provider", "")) == Version.Provider)) {
                 const string &Command = JSON<string>(client->IncomingJSON().value("Command", ""));
@@ -586,6 +587,7 @@ int OrchestratorServer::Manage() {
 
                 if (Command == "CheckOnline") replied = handle_CheckOnline(client);
                 if (Command == "Restart") replied = handle_Restart(client);
+                if (Command == "Remove") replied = handle_Remove(client);
                 if (Command == "Update") replied = handle_Update(client);
                 if (Command == "Discover") replied = handle_Discover(client);
                 if (Command == "Pull") replied = handle_Pull(client);
@@ -815,15 +817,39 @@ bool OrchestratorServer::handle_CheckOnline(OrchestratorClient* &client) {
 
 bool OrchestratorServer::handle_Restart(OrchestratorClient* &client) {
     if (client->IncomingJSON().value("Parameter", "") == "ACK") {
-        ServerLog->Write("Device [" + client->IncomingJSON().value("Hostname", "") + "] sent ACK to restart", LOGLEVEL_INFO);
+        ServerLog->Write("Device [" + client->IncomingJSON().value("Hostname", "") + "] sent ACK to 'Restart' command", LOGLEVEL_INFO);
         return true;
     }
     return false;
 }
 
+bool OrchestratorServer::handle_Remove(OrchestratorClient* &client) {
+    if (client->IncomingJSON().value("Parameter", "") == "ACK" || !Configuration.contains("Managed Devices") || !Configuration["Managed Devices"].is_object()) {
+        auto &managed = Configuration["Managed Devices"];
+        auto it = managed.find(client->IncomingJSON().value("MAC Address", ""));
+        
+        if (it != managed.end()) {
+            if (!Configuration.contains("Unmanaged Devices") || !Configuration["Unmanaged Devices"].is_object()) Configuration["Unmanaged Devices"] = nlohmann::json::object();
+            auto &unmanaged = Configuration["Unmanaged Devices"];
+
+            nlohmann::json dev = std::move(*it);
+            managed.erase(it);
+
+            dev["Last Update"] = CurrentDateTime();
+            unmanaged[client->IncomingJSON().value("MAC Address", "")] = std::move(dev);
+
+            saveConfiguration();
+            ServerLog->Write("Device [" + client->IncomingJSON().value("Hostname", "") + " - " + client->IncomingJSON().value("MAC Address", "") + "] removed successfully - Device(s) Managed: " + String(DevicesManaged()), LOGLEVEL_INFO);
+            return true;
+        }
+    }
+    ServerLog->Write("Error removing device [" + client->IncomingJSON().value("Hostname", "") + " - " + client->IncomingJSON().value("MAC Address", "") + "]", LOGLEVEL_ERROR);
+    return false;
+}
+
 bool OrchestratorServer::handle_Update(OrchestratorClient* &client) {
     if (client->IncomingJSON().value("Parameter", "") == "ACK") {
-        ServerLog->Write("Device [" + client->IncomingJSON().value("Hostname", "") + "] sent ACK to update", LOGLEVEL_INFO);
+        ServerLog->Write("Device [" + client->IncomingJSON().value("Hostname", "") + "] sent ACK to 'Update' command", LOGLEVEL_INFO);
         return true;
     }
     return false;

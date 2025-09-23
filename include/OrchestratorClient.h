@@ -25,8 +25,7 @@ class OrchestratorClient {
         void OutgoingBuffer(const nlohmann::json &value) { OutgoingBuffer(value.dump()); }
         const std::string OutgoingBuffer() { return mOutgoingBuffer; }
         const std::string IPAddress() { return inet_ntoa(mInfo.sin_addr); }
-        const std::string MACAddress() { return inet_ntoa(mInfo.sin_addr); }
-
+        
         const nlohmann::json &IncomingJSON() const noexcept { return mIncomingJSON; }
         const nlohmann::json &OutgoingJSON() const noexcept { return mOutgoingJSON; }
 };
