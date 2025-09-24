@@ -826,24 +826,36 @@ bool OrchestratorServer::handle_Restart(OrchestratorClient* &client) {
 
 bool OrchestratorServer::handle_Add(OrchestratorClient* &client) {
     if (client->IncomingJSON().value("Parameter", "") == "ACK") {
-        auto &managed = Configuration["Managed Devices"];
-        auto it = managed.find(client->IncomingJSON().value("MAC Address", ""));
+        String mac = client->IncomingJSON().value("MAC Address", "");
+
+        if (!Configuration.contains("Managed Devices") || !Configuration["Managed Devices"].is_object()) Configuration["Managed Devices"] = nlohmann::json::object();
+        if (!Configuration.contains("Unmanaged Devices") || !Configuration["Unmanaged Devices"].is_object()) Configuration["Unmanaged Devices"] = nlohmann::json::object();
         
-        if (it == managed.end()) {
-        //     if (!Configuration.contains("Unmanaged Devices") || !Configuration["Unmanaged Devices"].is_object()) Configuration["Unmanaged Devices"] = nlohmann::json::object();
-        //     auto &unmanaged = Configuration["Unmanaged Devices"];
+        auto &managed = Configuration["Managed Devices"];
+        auto &unmanaged = Configuration["Unmanaged Devices"];
 
-        //     nlohmann::json dev = std::move(*it);
-        //     managed.erase(it);
-
-        //     dev["Last Update"] = CurrentDateTime();
-        //     unmanaged[client->IncomingJSON().value("MAC Address", "")] = std::move(dev);
-
-        //     saveConfiguration();
-            ServerLog->Write("Device [" + client->IncomingJSON().value("Hostname", "") + " - " + client->IncomingJSON().value("MAC Address", "") + "] added successfully - Device(s) Managed: " + String(DevicesManaged()), LOGLEVEL_INFO);
-            return true;
+        if (managed.contains(mac)) {
+            ServerLog->Write("Device [" + client->IncomingJSON().value("Hostname", "") + " - " + mac + "] is already managed by this server - Device(s) Managed: " + String(DevicesManaged()), LOGLEVEL_WARNING);
+            return false;
         } else {
-            ServerLog->Write("Device [" + client->IncomingJSON().value("Hostname", "") + " - " + client->IncomingJSON().value("MAC Address", "") + "] is already managed by this server - Device(s) Managed: " + String(DevicesManaged()), LOGLEVEL_WARNING);
+            auto uit = unmanaged.find(mac); // Found in Unmanaged Devices?
+            if (uit != unmanaged.end()) unmanaged.erase(uit); // Erase it!
+
+            nlohmann::json dev = {
+                {"Hardware Model", client->IncomingJSON().value("Hardware Model", "")},
+                {"Hostname", client->IncomingJSON().value("Hostname", "")},
+                {"IP Address", client->IncomingJSON().value("IP Address", "")},
+                {"Last Update", CurrentDateTime()},
+                {"Local Timestamp", client->IncomingJSON().value("Local Timestamp", "")},
+                {"Product Name", client->IncomingJSON().value("Product Name", "")},
+                {"Version", client->IncomingJSON().value("Version", "")}
+            };
+            
+            managed[mac] = std::move(dev);
+
+            saveConfiguration();
+            ServerLog->Write("Device [" + client->IncomingJSON().value("Hostname", "") + " - " + mac + "] added successfully - Device(s) Managed: " + String(DevicesManaged()), LOGLEVEL_INFO);
+            return true;
         }
     } else {
         ServerLog->Write("Error adding device [" + client->IncomingJSON().value("Hostname", "") + " - " + client->IncomingJSON().value("MAC Address", "") + "]", LOGLEVEL_ERROR);
