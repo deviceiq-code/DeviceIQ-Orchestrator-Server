@@ -1,13 +1,12 @@
-[I][2025-09-24T12:46:33.545745Z] Configuration file: ./Orchestrator.json
-[I][2025-09-24T12:46:33.546075Z] Server name: Genesis
-[I][2025-09-24T12:46:33.546192Z] Server ID: ZCZ95YJJ693UF78
-[I][2025-09-24T12:46:33.546284Z] Server Version: 1.0.0
-[I][2025-09-24T12:46:33.546362Z] Device(s) Managed: 1
-[I][2025-09-24T12:46:33.546547Z] TCP bound at 192.168.2.10:30030
-[I][2025-09-24T12:46:33.546671Z] UDP bound at 0.0.0.0:30030
-[I][2025-09-24T12:46:33.546757Z] Orchestrator Manager is running (pid 166436)
-[I][2025-09-24T12:46:33.547167Z] Orchestrator status file /var/www/html/status.json updated
-[E][2025-09-24T12:46:38.556479Z] Error removing device [DEVIQ-LAB - D8:13:2A:7E:EE:C4]
-[I][2025-09-24T12:47:55.760253Z] Device [DEVIQ-LAB - D8:13:2A:7E:EE:C4] added successfully - Device(s) Managed: 2
-[I][2025-09-24T12:48:05.433434Z] Device [DEVIQ-LAB - D8:13:2A:7E:EE:C4] removed successfully - Device(s) Managed: 1
-[I][2025-09-24T12:48:12.699401Z] Device [DEVIQ-LAB - D8:13:2A:7E:EE:C4] added successfully - Device(s) Managed: 2
+[I][2025-09-24T19:16:17.758041Z] Configuration file: ./Orchestrator.json
+[I][2025-09-24T19:16:17.758362Z] Server name: Genesis
+[I][2025-09-24T19:16:17.758504Z] Server ID: ZCZ95YJJ693UF78
+[I][2025-09-24T19:16:17.758611Z] Server Version: 1.0.0
+[I][2025-09-24T19:16:17.758745Z] Device(s) Managed: 2
+[I][2025-09-24T19:16:17.759016Z] TCP bound at 192.168.2.10:30030
+[I][2025-09-24T19:16:17.759165Z] UDP bound at 0.0.0.0:30030
+[I][2025-09-24T19:16:17.759291Z] Orchestrator Manager is running (pid 177267)
+[I][2025-09-24T19:16:17.759730Z] Orchestrator status file /var/www/html/status.json updated
+[I][2025-09-24T19:16:37.873246Z] Orchestrator Server was stopped
+[I][2025-09-24T19:16:37.874090Z] Orchestrator status file /var/www/html/status.json updated
+[I][2025-09-24T19:16:37.874303Z] Orchestrator Server finished
