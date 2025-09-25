@@ -16,18 +16,18 @@ Orchestrator_Log::Log *ServerLog;
 int main(int argc, char** argv) {
     CommandLineParser clp;
 
-    clp.OnParameter('v', "version", no_argument, [](char* p_arg) {
+    clp.OnParameter('v', "version", no_argument, [](char*) {
         fprintf(stdout, "%s %s version %s\r\n\r\n", Version.ProductFamily.c_str(), Version.ProductName.c_str(), Version.Software.Info().c_str());
         exit(0);
     });
 
     clp.OnParameter('c', "config", required_argument, [&](char* p_arg) {
-        if (p_arg[0] == '=') p_arg = ++p_arg;
+        if (*p_arg == '=') p_arg++;
         ConfigFile = p_arg;
     });
 
     clp.OnParameter('i', "interface", required_argument, [&](char* p_arg) {
-        if (p_arg[0] == '=') p_arg = ++p_arg;
+        if (*p_arg == '=') p_arg++;
         TargetInterface = p_arg;
     });
 
@@ -49,6 +49,10 @@ int main(int argc, char** argv) {
     ServerLog->Write("Server ID: " + Orchestrator->Configuration["Configuration"]["Server ID"].get<string>(), LOGLEVEL_INFO);
     ServerLog->Write("Server Version: " + Version.Software.Info(), LOGLEVEL_INFO);
     ServerLog->Write("Device(s) Managed: " + String(Orchestrator->DevicesManaged()), LOGLEVEL_INFO);
+
+    if (JSON<bool>(Orchestrator->Configuration["Configuration"]["Debug"]["Print Payload"].get<bool>(), false)) {
+        fprintf(stdout, "Printing Payload\r\n");
+    }
 
     exit(Orchestrator->Manage());
 }

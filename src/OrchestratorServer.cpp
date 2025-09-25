@@ -577,7 +577,9 @@ int OrchestratorServer::Manage() {
             client->IncomingBuffer(incoming);
 
             // Debug - print whatever arrives
-            // std::cout << "\r\n---\r\n" << incoming << "\r\n---\r\n" << std::endl;
+            if (JSON<bool>(Configuration["Configuration"]["Debug"]["Print Payload"].get<bool>(), false)) {
+                std::cout << "\r\n--- Incoming Payload:\r\n" << incoming << "\r\n---\r\n" << std::endl;
+            }
 
             if ((!client->IncomingJSON().empty()) && (JSON<string>(client->IncomingJSON().value("Provider", "")) == Version.Provider)) {
                 const string &Command = JSON<string>(client->IncomingJSON().value("Command", ""));

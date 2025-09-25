@@ -2,6 +2,9 @@
     "Configuration": {
         "Bind": "ens3",
         "Buffer Size": 1024,
+        "Debug": {
+            "Print Payload": true
+        },
         "Log Endpoint": "ENDPOINT_CONSOLE, ENDPOINT_FILE, ENDPOINT_SYSLOG_LOCAL, ENDPOINT_SYSLOG_REMOTE",
         "Log File": "./Orchestrator.log",
         "New Log": true,
@@ -23,19 +26,19 @@
             "Hardware Model": "ESP32-WROOM",
             "Hostname": "DEVIQ-DEV",
             "IP Address": "192.168.2.114",
-            "Last Update": "2025-09-24T12:10:51.659186Z",
-            "Local Timestamp": "2025-09-24T09:10:50.937272Z",
+            "Last Update": "2025-09-25T14:25:04.425875Z",
+            "Local Timestamp": "2025-09-25T11:25:00.767534Z",
             "Product Name": "Home",
-            "Version": "1.0.1"
+            "Version": "1.0.2"
         },
         "D8:13:2A:7E:EE:C4": {
             "Hardware Model": "ESP32-WROOM",
             "Hostname": "DEVIQ-LAB",
             "IP Address": "192.168.2.246",
-            "Last Update": "2025-09-24T12:52:34.478666Z",
-            "Local Timestamp": "2025-09-24T09:52:33.230590Z",
+            "Last Update": "2025-09-25T14:25:04.424253Z",
+            "Local Timestamp": "2024-02-17T21:18:50.011488Z",
             "Product Name": "Home",
-            "Version": "1.0.1"
+            "Version": "1.0.2"
         }
     },
     "Unmanaged Devices": {}
