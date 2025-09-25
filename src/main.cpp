@@ -50,9 +50,5 @@ int main(int argc, char** argv) {
     ServerLog->Write("Server Version: " + Version.Software.Info(), LOGLEVEL_INFO);
     ServerLog->Write("Device(s) Managed: " + String(Orchestrator->DevicesManaged()), LOGLEVEL_INFO);
 
-    if (JSON<bool>(Orchestrator->Configuration["Configuration"]["Debug"]["Print Payload"].get<bool>(), false)) {
-        fprintf(stdout, "Printing Payload\r\n");
-    }
-
     exit(Orchestrator->Manage());
 }

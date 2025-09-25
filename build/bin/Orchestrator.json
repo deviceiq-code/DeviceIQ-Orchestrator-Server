@@ -3,7 +3,7 @@
         "Bind": "ens3",
         "Buffer Size": 1024,
         "Debug": {
-            "Print Payload": true
+            "Log Payload": true
         },
         "Log Endpoint": "ENDPOINT_CONSOLE, ENDPOINT_FILE, ENDPOINT_SYSLOG_LOCAL, ENDPOINT_SYSLOG_REMOTE",
         "Log File": "./Orchestrator.log",

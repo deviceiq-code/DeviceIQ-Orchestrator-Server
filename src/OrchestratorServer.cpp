@@ -576,9 +576,9 @@ int OrchestratorServer::Manage() {
             OrchestratorClient *client = new OrchestratorClient(client_fd, client_addr);
             client->IncomingBuffer(incoming);
 
-            // Debug - print whatever arrives
-            if (JSON<bool>(Configuration["Configuration"]["Debug"]["Print Payload"].get<bool>(), false)) {
-                std::cout << "\r\n--- Incoming Payload:\r\n" << incoming << "\r\n---\r\n" << std::endl;
+            // Debug - log whatever arrives
+            if (JSON<bool>(Configuration["Configuration"]["Debug"]["Log Payload"].get<bool>(), false)) {
+                ServerLog->Write("Incoming Payload: [" + incoming + "]", LOGLEVEL_DEBUG);
             }
 
             if ((!client->IncomingJSON().empty()) && (JSON<string>(client->IncomingJSON().value("Provider", "")) == Version.Provider)) {
