@@ -730,7 +730,8 @@ int OrchestratorServer::Manage() {
                     nlohmann::json reply = {
                         {"Orchestrator", {
                             {"IP Address", to_ip(local_ip)},
-                            {"Server ID",  Configuration["Configuration"]["Server ID"].get<std::string>()}
+                            {"Server ID",  Configuration["Configuration"]["Server ID"].get<std::string>()},
+                            {"Port",  Configuration["Configuration"]["Port"].get<uint16_t>()}
                         }}
                     };
 

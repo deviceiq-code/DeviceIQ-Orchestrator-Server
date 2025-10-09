@@ -7,13 +7,13 @@
         },
         "Log Endpoint": "ENDPOINT_CONSOLE, ENDPOINT_FILE, ENDPOINT_SYSLOG_LOCAL, ENDPOINT_SYSLOG_REMOTE",
         "Log File": "./Orchestrator.log",
-        "New Log": true,
+        "New Log": false,
         "Port": 30030,
         "Server ID": "ZCZ95YJJ693UF78",
         "Server Name": "Genesis",
         "Status Updater": {
             "Enabled": true,
-            "Interval": 15000,
+            "Interval": 15,
             "Output File": "/var/www/html/status.json"
         },
         "Syslog Port": 514,
@@ -26,8 +26,17 @@
             "Hardware Model": "ESP32-WROOM",
             "Hostname": "DEVIQ-DEV",
             "IP Address": "192.168.2.114",
-            "Last Update": "2025-09-25T14:25:04.425875Z",
-            "Local Timestamp": "2025-09-25T11:25:00.767534Z",
+            "Last Update": "2025-09-25T23:11:00.718893Z",
+            "Local Timestamp": "2025-09-25T20:11:00.650957Z",
+            "Product Name": "Home",
+            "Version": "1.0.2"
+        },
+	"3C:61:05:64:59:44": {
+            "Hardware Model": "ESP32-WROOM",
+            "Hostname": "DEVIQ-OFFICE",
+            "IP Address": "192.168.2.34",
+            "Last Update": "2025-09-25T23:11:00.718893Z",
+            "Local Timestamp": "2025-09-25T20:11:00.650957Z",
             "Product Name": "Home",
             "Version": "1.0.2"
         },
@@ -35,8 +44,8 @@
             "Hardware Model": "ESP32-WROOM",
             "Hostname": "DEVIQ-LAB",
             "IP Address": "192.168.2.246",
-            "Last Update": "2025-09-25T14:25:04.424253Z",
-            "Local Timestamp": "2024-02-17T21:18:50.011488Z",
+            "Last Update": "2025-09-25T23:11:04.168579Z",
+            "Local Timestamp": "2025-09-25T20:11:03.268430Z",
             "Product Name": "Home",
             "Version": "1.0.2"
         }
